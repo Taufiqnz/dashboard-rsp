@@ -2,179 +2,155 @@
 
 namespace Database\Seeders;
 
+use App\Models\Division;
 use App\Models\Pegawai;
 use App\Models\Profesi;
 use App\Models\UnitKerja;
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Str;
 
 class PegawaiSeeder extends Seeder
 {
     public function run(): void
     {
-        $dokterUmum = Profesi::where('nama_profesi', 'Dokter Umum')->first();
-        $dokterAnak = Profesi::where('nama_profesi', 'Dokter Spesialis Anak')->first();
-        $dokterKandungan = Profesi::where('nama_profesi', 'Dokter Spesialis Kandungan')->first();
-        $dokterBedah = Profesi::where('nama_profesi', 'Dokter Spesialis Bedah')->first();
-        $dokterPenyakitDalam = Profesi::where('nama_profesi', 'Dokter Spesialis Penyakit Dalam')->first();
-        $dokterJantung = Profesi::where('nama_profesi', 'Dokter Spesialis Jantung')->first();
-        $dokterGigi = Profesi::where('nama_profesi', 'Dokter Gigi')->first();
-        $perawat = Profesi::where('nama_profesi', 'Perawat')->first();
-        $bidan = Profesi::where('nama_profesi', 'Bidan')->first();
-        $apoteker = Profesi::where('nama_profesi', 'Apoteker')->first();
-        $analis = Profesi::where('nama_profesi', 'Analis Laboratorium')->first();
-        $radiografer = Profesi::where('nama_profesi', 'Radiografer')->first();
-        $admin = Profesi::where('nama_profesi', 'Staf Administrasi')->first();
-        $keamanan = Profesi::where('nama_profesi', 'Petugas Keamanan')->first();
-        $cleaning = Profesi::where('nama_profesi', 'Cleaning Service')->first();
+        $divisiSdm = Division::where('slug', 'sdm')->firstOrFail();
 
-        $unitIgd = UnitKerja::where('kode_unit', 'IGD')->first();
-        $unitRanap = UnitKerja::where('kode_unit', 'RANAP')->first();
-        $unitIbs = UnitKerja::where('kode_unit', 'IBS')->first();
-        $unitFarmasi = UnitKerja::where('kode_unit', 'FARM')->first();
-        $unitLab = UnitKerja::where('kode_unit', 'LAB')->first();
-        $unitRad = UnitKerja::where('kode_unit', 'RAD')->first();
-        $unitPoli = UnitKerja::where('kode_unit', 'POLI')->first();
-        $unitSdm1 = UnitKerja::where('kode_unit', 'SDM-01')->first();
-        $unitSdm2 = UnitKerja::where('kode_unit', 'SDM-02')->first();
-        $unitKeu1 = UnitKerja::where('kode_unit', 'KEU-01')->first();
-        $unitKeu2 = UnitKerja::where('kode_unit', 'KEU-02')->first();
-        $unitKeu3 = UnitKerja::where('kode_unit', 'KEU-03')->first();
-
-        $pegawai = [
-            // Dokter
-            ['nama' => 'dr. Budi Santoso', 'profesi' => $dokterUmum, 'unit' => $unitIgd, 'jk' => 'L', 'masuk' => '2015-02-01'],
-            ['nama' => 'dr. Siti Nurhaliza', 'profesi' => $dokterUmum, 'unit' => $unitPoli, 'jk' => 'P', 'masuk' => '2017-06-10'],
-            ['nama' => 'dr. Andi Prasetya, Sp.A', 'profesi' => $dokterAnak, 'unit' => $unitPoli, 'jk' => 'L', 'masuk' => '2014-09-01'],
-            ['nama' => 'dr. Ratna Dewi, Sp.OG', 'profesi' => $dokterKandungan, 'unit' => $unitPoli, 'jk' => 'P', 'masuk' => '2016-03-15'],
-            ['nama' => 'dr. Hadi Wijaya, Sp.B', 'profesi' => $dokterBedah, 'unit' => $unitIbs, 'jk' => 'L', 'masuk' => '2013-11-01'],
-            ['nama' => 'dr. Lestari Handayani, Sp.PD', 'profesi' => $dokterPenyakitDalam, 'unit' => $unitRanap, 'jk' => 'P', 'masuk' => '2018-01-20'],
-            ['nama' => 'dr. Bambang Kurniawan, Sp.JP', 'profesi' => $dokterJantung, 'unit' => $unitRanap, 'jk' => 'L', 'masuk' => '2015-07-01'],
-            ['nama' => 'drg. Maya Anggraeni', 'profesi' => $dokterGigi, 'unit' => $unitPoli, 'jk' => 'P', 'masuk' => '2019-04-01'],
-
-            // Perawat - IGD
-            ['nama' => 'Rina Marlina', 'profesi' => $perawat, 'unit' => $unitIgd, 'jk' => 'P', 'masuk' => '2019-03-01'],
-            ['nama' => 'Agus Setiawan', 'profesi' => $perawat, 'unit' => $unitIgd, 'jk' => 'L', 'masuk' => '2020-06-15'],
-            ['nama' => 'Yuni Kartika', 'profesi' => $perawat, 'unit' => $unitIgd, 'jk' => 'P', 'masuk' => '2021-01-10'],
-
-            // Perawat - Rawat Inap
-            ['nama' => 'Dedi Kurniawan', 'profesi' => $perawat, 'unit' => $unitRanap, 'jk' => 'L', 'masuk' => '2018-09-01'],
-            ['nama' => 'Sri Wahyuni', 'profesi' => $perawat, 'unit' => $unitRanap, 'jk' => 'P', 'masuk' => '2019-11-20'],
-            ['nama' => 'Tono Wijaya', 'profesi' => $perawat, 'unit' => $unitRanap, 'jk' => 'L', 'masuk' => '2020-02-14'],
-            ['nama' => 'Lina Marlina', 'profesi' => $perawat, 'unit' => $unitRanap, 'jk' => 'P', 'masuk' => '2022-05-05'],
-            ['nama' => 'Eko Prasetyo', 'profesi' => $perawat, 'unit' => $unitRanap, 'jk' => 'L', 'masuk' => '2021-08-17'],
-
-            // Perawat - Poli & IBS
-            ['nama' => 'Diah Permata', 'profesi' => $perawat, 'unit' => $unitPoli, 'jk' => 'P', 'masuk' => '2020-04-01'],
-            ['nama' => 'Bayu Aditya', 'profesi' => $perawat, 'unit' => $unitIbs, 'jk' => 'L', 'masuk' => '2019-07-22'],
-            ['nama' => 'Farah Nabila', 'profesi' => $perawat, 'unit' => $unitIbs, 'jk' => 'P', 'masuk' => '2021-03-30'],
-
-            // Bidan
-            ['nama' => 'Wulan Sari', 'profesi' => $bidan, 'unit' => $unitPoli, 'jk' => 'P', 'masuk' => '2018-05-12'],
-            ['nama' => 'Indah Puspita', 'profesi' => $bidan, 'unit' => $unitRanap, 'jk' => 'P', 'masuk' => '2020-10-01'],
-
-            // Apoteker & Farmasi
-            ['nama' => 'Rizky Ramadhan', 'profesi' => $apoteker, 'unit' => $unitFarmasi, 'jk' => 'L', 'masuk' => '2019-01-15'],
-            ['nama' => 'Melati Putri', 'profesi' => $apoteker, 'unit' => $unitFarmasi, 'jk' => 'P', 'masuk' => '2021-06-01'],
-
-            // Analis Lab
-            ['nama' => 'Hendra Gunawan', 'profesi' => $analis, 'unit' => $unitLab, 'jk' => 'L', 'masuk' => '2018-12-01'],
-            ['nama' => 'Citra Dewi', 'profesi' => $analis, 'unit' => $unitLab, 'jk' => 'P', 'masuk' => '2020-08-20'],
-
-            // Radiografer
-            ['nama' => 'Fajar Ramadhan', 'profesi' => $radiografer, 'unit' => $unitRad, 'jk' => 'L', 'masuk' => '2019-09-10'],
-            ['nama' => 'Nadia Salsabila', 'profesi' => $radiografer, 'unit' => $unitRad, 'jk' => 'P', 'masuk' => '2022-02-01'],
-
-            // Staf Administrasi (SDM & Keuangan)
-            ['nama' => 'Anisa Putri', 'profesi' => $admin, 'unit' => $unitSdm1, 'jk' => 'P', 'masuk' => '2017-04-01'],
-            ['nama' => 'Bagus Prakoso', 'profesi' => $admin, 'unit' => $unitSdm2, 'jk' => 'L', 'masuk' => '2019-05-20'],
-            ['nama' => 'Dian Anggraini', 'profesi' => $admin, 'unit' => $unitKeu1, 'jk' => 'P', 'masuk' => '2018-02-10'],
-            ['nama' => 'Fitriani', 'profesi' => $admin, 'unit' => $unitKeu1, 'jk' => 'P', 'masuk' => '2020-11-01'],
-            ['nama' => 'Galih Pratama', 'profesi' => $admin, 'unit' => $unitKeu2, 'jk' => 'L', 'masuk' => '2019-10-01'],
-            ['nama' => 'Hesti Rahayu', 'profesi' => $admin, 'unit' => $unitKeu3, 'jk' => 'P', 'masuk' => '2021-07-15'],
-
-            // Petugas Keamanan & Cleaning
-            ['nama' => 'Joko Susilo', 'profesi' => $keamanan, 'unit' => $unitIgd, 'jk' => 'L', 'masuk' => '2018-01-01'],
-            ['nama' => 'Wahyu Hidayat', 'profesi' => $keamanan, 'unit' => $unitRanap, 'jk' => 'L', 'masuk' => '2020-03-01'],
-            ['nama' => 'Sumiati', 'profesi' => $cleaning, 'unit' => $unitRanap, 'jk' => 'P', 'masuk' => '2019-06-01'],
-
-            // Pegawai baru (Kontrak BLU) — masuk 2024-2025
-            ['nama' => 'Putri Ayu Lestari', 'profesi' => $perawat, 'unit' => $unitIgd, 'jk' => 'P', 'masuk' => '2024-08-01'],
-            ['nama' => 'Reza Firmansyah', 'profesi' => $radiografer, 'unit' => $unitRad, 'jk' => 'L', 'masuk' => '2025-01-15'],
-            ['nama' => 'Salsabila Putri', 'profesi' => $admin, 'unit' => $unitKeu2, 'jk' => 'P', 'masuk' => '2025-06-01'],
+        // Peta isi kolom "golongan" di data asli (sebenernya sub-profesi, BUKAN pangkat)
+        // ke nama_profesi yang udah ada di tabel profesi.
+        $petaProfesi = [
+            'Dokter Umum' => 'Dokter Umum',
+            'Dokter Spesialis' => 'Dokter Spesialis',
+            'Dokter Sub Spesialis' => 'Dokter Sub Spesialis',
+            'Dokter Gigi' => 'Dokter Gigi',
+            'Perawat' => 'Perawat',
+            'Bidan' => 'Bidan',
+            'Nakes Lain' => 'Nakes Lain',
+            'Administrasi' => 'Administrasi',
         ];
 
-        $kotaLahir = ['Bogor', 'Cianjur', 'Sukabumi', 'Bandung', 'Depok', 'Jakarta', 'Cimahi', 'Cirebon'];
+        $profesiCache = Profesi::whereIn('nama_profesi', array_values($petaProfesi))
+            ->get()->keyBy('nama_profesi');
 
-        // Pendidikan & jabatan default per nama profesi — dipakai buat isi Tabel 1
-        $dataProfesi = [
-            'Dokter Umum' => ['pendidikan' => 'S1 Kedokteran - Profesi Dokter', 'jabatan' => 'Dokter Umum', 'jenis_kerja' => 'shift'],
-            'Dokter Spesialis Anak' => ['pendidikan' => 'Sp.A', 'jabatan' => 'Dokter Spesialis Anak', 'jenis_kerja' => 'shift'],
-            'Dokter Spesialis Kandungan' => ['pendidikan' => 'Sp.OG', 'jabatan' => 'Dokter Spesialis Kandungan', 'jenis_kerja' => 'shift'],
-            'Dokter Spesialis Bedah' => ['pendidikan' => 'Sp.B', 'jabatan' => 'Dokter Spesialis Bedah', 'jenis_kerja' => 'shift'],
-            'Dokter Spesialis Penyakit Dalam' => ['pendidikan' => 'Sp.PD', 'jabatan' => 'Dokter Spesialis Penyakit Dalam', 'jenis_kerja' => 'shift'],
-            'Dokter Spesialis Jantung' => ['pendidikan' => 'Sp.JP', 'jabatan' => 'Dokter Spesialis Jantung', 'jenis_kerja' => 'shift'],
-            'Dokter Gigi' => ['pendidikan' => 'S1 Kedokteran Gigi - Profesi Dokter Gigi', 'jabatan' => 'Dokter Gigi', 'jenis_kerja' => 'shift'],
-            'Perawat' => ['pendidikan' => 'D3 Keperawatan', 'jabatan' => 'Perawat Pelaksana', 'jenis_kerja' => 'shift'],
-            'Bidan' => ['pendidikan' => 'D3 Kebidanan', 'jabatan' => 'Bidan Pelaksana', 'jenis_kerja' => 'shift'],
-            'Apoteker' => ['pendidikan' => 'S1 Farmasi - Apoteker', 'jabatan' => 'Apoteker Pelaksana', 'jenis_kerja' => 'shift'],
-            'Analis Laboratorium' => ['pendidikan' => 'D3 Analis Kesehatan', 'jabatan' => 'Analis Pelaksana', 'jenis_kerja' => 'shift'],
-            'Radiografer' => ['pendidikan' => 'D3 Radiologi', 'jabatan' => 'Radiografer Pelaksana', 'jenis_kerja' => 'shift'],
-            'Staf Administrasi' => ['pendidikan' => 'S1 Administrasi', 'jabatan' => 'Staf Administrasi', 'jenis_kerja' => 'non_shift'],
-            'Petugas Keamanan' => ['pendidikan' => 'SMA/SMK', 'jabatan' => 'Anggota Keamanan', 'jenis_kerja' => 'shift'],
-            'Cleaning Service' => ['pendidikan' => 'SMA/SMK', 'jabatan' => 'Petugas Kebersihan', 'jenis_kerja' => 'shift'],
-        ];
+        $unitCache = UnitKerja::where('division_id', $divisiSdm->id)->get()->keyBy('nama_unit');
 
-        $golonganByMasaKerja = function (string $tanggalMasuk): string {
-            // abs() penting! Carbon 3 balikin nilai negatif kalau $tanggalMasuk di masa lalu
-            $tahun = abs(now()->diffInYears($tanggalMasuk));
-            return match (true) {
-                $tahun >= 8 => 'III/b',
-                $tahun >= 5 => 'III/a',
-                $tahun >= 2 => 'II/c',
-                default => 'II/b',
+        // Query LANGSUNG ke database db_pegawai (database terpisah, tabel bernama sama "pegawai").
+        // Server MySQL-nya harus sama & user DB di .env harus punya akses ke db_pegawai ini.
+        try {
+            $dataAsli = DB::table('db_pegawai.pegawai')->get();
+        } catch (\Throwable $e) {
+            $this->command?->error(
+                'Gagal konek ke database db_pegawai: ' . $e->getMessage() . PHP_EOL .
+                    'Pastikan: (1) database "db_pegawai" ada di server MySQL yang sama, ' .
+                    '(2) user database di .env (DB_USERNAME) punya akses ke db_pegawai itu.'
+            );
+            return;
+        }
+
+        if ($dataAsli->isEmpty()) {
+            $this->command?->warn('Tabel db_pegawai.pegawai kosong, nggak ada yang di-import.');
+            return;
+        }
+
+        foreach ($dataAsli as $row) {
+            $namaUnit = $row->unit_kerja !== null && $row->unit_kerja !== ''
+                ? $row->unit_kerja
+                : 'Belum Ditentukan';
+
+            if (!isset($unitCache[$namaUnit])) {
+                $kodeUnit = 'SDM-' . strtoupper(Str::slug($namaUnit));
+                $kodeUnit = substr($kodeUnit, 0, 50);
+
+                $unitCache[$namaUnit] = UnitKerja::firstOrCreate(
+                    ['kode_unit' => $kodeUnit],
+                    ['nama_unit' => $namaUnit, 'division_id' => $divisiSdm->id]
+                );
+            }
+
+            $namaProfesi = $petaProfesi[$row->golongan] ?? 'Administrasi';
+            $profesi = $profesiCache[$namaProfesi] ?? $profesiCache['Administrasi'];
+
+            // Samain penulisan status jadi lowercase-underscore, konsisten sama kode lain
+            $status = match ($row->status_pegawai) {
+                'PNS' => 'pns',
+                'PPPK' => 'pppk',
+                'BLU' => 'blu',
+                'Mitra' => 'mitra',
+                'Magang' => 'magang',
+                default => 'mitra',
             };
-        };
 
-        // Status kepegawaian rumah sakit pemerintah: pegawai senior cenderung PNS,
-        // pegawai menengah PPPK, pegawai baru Kontrak BLU.
-        $statusKepegawaianByMasaKerja = function (string $tanggalMasuk): string {
-            // abs() penting! Carbon 3 balikin nilai negatif kalau $tanggalMasuk di masa lalu
-            $tahun = abs(now()->diffInYears($tanggalMasuk));
-            return match (true) {
-                $tahun >= 6 => 'pns',
-                $tahun >= 3 => 'pppk',
-                default => 'kontrak_blu',
-            };
-        };
+            // Tenaga klinis (dokter/perawat/bidan/nakes lain) kerja shift, administrasi jam tetap
+            $jenisKerja = $row->kelompok_besar === 'Administrasi' ? 'non_shift' : 'shift';
 
-        foreach ($pegawai as $i => $p) {
-            $nip = 'PEG-' . str_pad($i + 1, 4, '0', STR_PAD_LEFT);
-            $tambahan = $dataProfesi[$p['profesi']->nama_profesi] ?? [
-                'pendidikan' => 'SMA/SMK',
-                'jabatan' => 'Staf Pelaksana',
-                'jenis_kerja' => 'shift',
-            ];
+            [$tanggalLahir, $tanggalMasuk] = $this->ekstrakTanggalDariNip($row->nip, $status);
 
             Pegawai::updateOrCreate(
-                ['nip' => $nip],
+                ['nip' => $row->nip],
                 [
-                    'nik' => '32' . str_pad($i + 1, 14, '0', STR_PAD_LEFT), // NIK dummy 16 digit
-                    'nama' => $p['nama'],
-                    'profesi_id' => $p['profesi']->id,
-                    'unit_kerja_id' => $p['unit']->id,
-                    'jenis_kelamin' => $p['jk'],
-                    'tanggal_lahir' => null,
-                    'tempat_lahir' => $kotaLahir[$i % count($kotaLahir)],
-                    'tanggal_masuk' => $p['masuk'],
-                    'status_kepegawaian' => $statusKepegawaianByMasaKerja($p['masuk']),
-                    'pendidikan' => $tambahan['pendidikan'],
-                    'jabatan' => $tambahan['jabatan'],
-                    'golongan' => $golonganByMasaKerja($p['masuk']),
-                    'jenis_kerja' => $tambahan['jenis_kerja'],
-                    'no_hp' => '0813' . rand(10000000, 99999999),
+                    'nama' => $row->nama,
+                    'profesi_id' => $profesi->id,
+                    'unit_kerja_id' => $unitCache[$namaUnit]->id,
+                    'jenis_kelamin' => $row->kelamin === 'Laki-Laki' ? 'L' : 'P',
+                    'kelamin' => $row->kelamin,
+                    'kelompok_besar' => $row->kelompok_besar,
+                    'direktorat' => $row->direktorat,
+                    'tanggal_lahir' => $tanggalLahir,
+                    'tanggal_masuk' => $tanggalMasuk,
+                    'status_kepegawaian' => $status,
+                    'status_pegawai' => $row->status_pegawai,
+                    // field ini nggak ada di data asli, dibiarkan kosong dulu
+                    'pendidikan' => null,
+                    'jabatan' => null,
+                    'golongan' => $row->golongan,
+                    'jenis_kerja' => $jenisKerja,
+                    'no_hp' => null,
                     'aktif' => true,
                 ]
             );
+        }
+
+        $this->command?->info('Berhasil import ' . $dataAsli->count() . ' pegawai dari db_pegawai.pegawai.');
+    }
+
+    /**
+     * NIP PNS di Indonesia formatnya baku: 8 digit tanggal lahir (YYYYMMDD) + 6 digit
+     * tahun-bulan TMT (YYYYMM) + 1 digit kelamin + 3 digit nomor urut = 18 digit.
+     * Ini kita manfaatin buat "ekstrak" tanggal lahir & tanggal masuk kerja pegawai PNS
+     * TANPA perlu data tambahan.
+     *
+     * Untuk PPPK/BLU/Mitra/Magang, formatnya beda-beda dan nggak bisa dipastikan artinya
+     * apa — jadi sengaja dibiarkan null daripada nebak-nebak data yang bisa salah.
+     */
+    private function ekstrakTanggalDariNip(string $nip, string $status): array
+    {
+        if ($status !== 'pns' || strlen($nip) !== 18) {
+            return [null, null];
+        }
+
+        $tahunLahir = (int) substr($nip, 0, 4);
+        $bulanLahir = (int) substr($nip, 4, 2);
+        $tanggalLahirAngka = (int) substr($nip, 6, 2);
+        $tahunMasuk = (int) substr($nip, 8, 4);
+        $bulanMasuk = (int) substr($nip, 12, 2);
+
+        // validasi rentang wajar, kalau nggak masuk akal jangan dipaksa
+        if ($tahunLahir < 1930 || $tahunLahir > 2010 || $bulanLahir < 1 || $bulanLahir > 12) {
+            return [null, null];
+        }
+        if ($tahunMasuk < 1970 || $tahunMasuk > 2026 || $bulanMasuk < 1 || $bulanMasuk > 12) {
+            return [null, null];
+        }
+
+        $tanggalLahirFinal = $tanggalLahirAngka > 0 ? $tanggalLahirAngka : 1;
+
+        try {
+            $tanggalLahir = sprintf('%04d-%02d-%02d', $tahunLahir, $bulanLahir, $tanggalLahirFinal);
+            $tanggalMasuk = sprintf('%04d-%02d-01', $tahunMasuk, $bulanMasuk);
+
+            return [$tanggalLahir, $tanggalMasuk];
+        } catch (\Throwable $e) {
+            return [null, null];
         }
     }
 }

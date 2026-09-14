@@ -104,16 +104,9 @@
         </div>
         <div class="col-lg-3 col-md-6 mb-4">
             <div class="kpi-card">
-                <div class="kpi-title">Kehadiran SDM</div>
-                <div class="kpi-value">{{ $eksekutif['kehadiran_sdm'] }}%</div>
-                @if (is_null($eksekutif['pertumbuhan_kehadiran']))
-                    <div class="kpi-sub neutral">Periode sebelumnya kosong</div>
-                @else
-                    <div class="kpi-sub {{ $eksekutif['pertumbuhan_kehadiran'] >= 0 ? 'up' : 'down' }}">
-                        <i class="fas fa-arrow-{{ $eksekutif['pertumbuhan_kehadiran'] >= 0 ? 'up' : 'down' }} mr-1"></i>
-                        {{ abs($eksekutif['pertumbuhan_kehadiran']) }}%
-                    </div>
-                @endif
+                <div class="kpi-title">Total Pegawai Aktif</div>
+                <div class="kpi-value">{{ number_format($eksekutif['total_pegawai'], 0, ',', '.') }}</div>
+                <div class="kpi-sub neutral">Data kepegawaian terbaru</div>
                 <a href="{{ route('divisi.dashboard', 'sdm') }}" class="kpi-link">
                     Lebih lengkap <i class="fas fa-arrow-right"></i>
                 </a>

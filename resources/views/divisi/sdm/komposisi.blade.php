@@ -8,21 +8,27 @@
     body { font-family: 'Poppins', sans-serif; }
     .page-header {
         background: linear-gradient(135deg, #8950FC 0%, #6236DB 100%);
-        border-radius: 18px; padding: 28px 32px; color: #fff;
+        border-radius: 18px; padding: 30px 34px; color: #fff;
         box-shadow: 0 10px 30px rgba(137,80,252,.25);
     }
     .page-header h1 { color: #fff; }
     .page-header .text-muted-light { color: rgba(255,255,255,.8) !important; }
     .modern-card { background: #fff; border-radius: 16px; border: none; box-shadow: 0 4px 18px rgba(0,0,0,.06); }
-    .filter-card { background: #fff; border-radius: 14px; box-shadow: 0 4px 18px rgba(0,0,0,.06); border: none; }
-    .table-modern thead th { border: none; color: #a1a5b7; font-size: 12px; text-transform: uppercase; letter-spacing: .5px; }
-    .table-modern td { border-color: #f1f1f4; vertical-align: middle; }
-    .table-modern tbody tr:hover { background: #f9f9fb; }
-    .badge-modern { border-radius: 20px; padding: 5px 12px; font-weight: 600; font-size: 11px; }
-    .avatar-circle {
-        width: 36px; height: 36px; border-radius: 50%; background: #F1E9FF; color: #8950FC;
-        display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: 13px;
-        flex-shrink: 0;
+    .section-kicker { color: #7e8299; font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+    .chart-wrap { min-height: 270px; display: flex; align-items: center; justify-content: center; }
+    .chart-wrap canvas { max-height: 250px; }
+    .stat-panel { height: 100%; padding: 24px; background: #faf8ff; border-left: 4px solid #8950fc; border-radius: 12px; }
+    .stat-value { color: #6236db; font-size: 32px; line-height: 1; font-weight: 800; }
+    .stat-label { color: #7e8299; font-size: 12px; font-weight: 600; }
+    .group-row { padding: 14px 0; border-bottom: 1px solid #eef1f4; }
+    .group-row:last-child { border-bottom: 0; }
+    .group-dot { width: 10px; height: 10px; border-radius: 50%; flex: 0 0 10px; }
+    .progress-track { height: 7px; background: #edf1f3; border-radius: 10px; overflow: hidden; }
+    .progress-value { height: 100%; background: #8950fc; border-radius: 10px; }
+    .table-modern thead th { border: none; color: #7e8299; font-size: 11px; text-transform: uppercase; letter-spacing: .06em; }
+    .table-modern td { border-color: #eef1f4; vertical-align: middle; }
+    .table-modern tbody tr:hover { background: #faf8ff; }
+    .rank-number { color: #8950fc; font-size: 18px; font-weight: 800; width: 42px;
     }
 </style>
 @endpush
@@ -31,10 +37,20 @@
 <div class="container-fluid px-6 py-6">
     @include('partials.submenu-sdm')
 
+    @php
+        $totalPegawai = $komposisi->sum('total');
+        $kelompokTerbesar = $komposisi->first();
+        $warnaGrafik = ['#8950FC', '#1BC5BD', '#FFA800', '#6993FF', '#F64E60'];
+    @endphp
+
     <div class="page-header d-flex justify-content-between align-items-center flex-wrap mb-6">
         <div>
             <h1 class="font-weight-bolder mb-1"><i class="fas fa-user-md mr-2"></i>Komposisi Pegawai</h1>
-            <span class="text-muted-light font-weight-bold">Total {{ $komposisi->sum('total') }} pegawai aktif, terbagi 5 kelompok</span>
+            <span class="text-muted-light font-weight-bold">Gambaran sebaran pegawai aktif berdasarkan kelompok besar</span>
+        </div>
+        <div class="text-right mt-3 mt-md-0">
+            <div class="text-white-50 font-size-sm">Total pegawai aktif</div>
+            <div class="font-weight-bolder" style="font-size:32px; line-height:1.1;">{{ $totalPegawai }}</div>
         </div>
     </div>
 
@@ -42,16 +58,14 @@
         <div class="col-lg-5 mb-6">
             <div class="card modern-card h-100">
                 <div class="card-body p-5">
-                    <h3 class="font-weight-bolder mb-4">Grafik Komposisi</h3>
-                    <canvas id="chartKomposisi" height="220"></canvas>
-                    <div class="mt-4">
-                        @foreach ($komposisi as $item)
-                        <div class="d-flex justify-content-between align-items-center mb-2">
-                            <span class="font-weight-bold text-dark font-size-sm">{{ $item['label'] }}</span>
-                            <span class="font-weight-bolder text-primary font-size-sm">{{ $item['total'] }} ({{ $item['persentase'] }}%)</span>
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                        <div>
+                            <div class="section-kicker">Proporsi SDM</div>
+                            <h3 class="font-weight-bolder mb-0">Komposisi Kelompok</h3>
                         </div>
-                        @endforeach
+                        <i class="fas fa-chart-pie" style="color:#8950fc; font-size:22px;"></i>
                     </div>
+                    <div class="chart-wrap"><canvas id="chartKomposisi"></canvas></div>
                 </div>
             </div>
         </div>
@@ -59,26 +73,36 @@
         <div class="col-lg-7 mb-6">
             <div class="card modern-card h-100">
                 <div class="card-body p-5">
-                    <h3 class="font-weight-bolder mb-4">Filter Daftar Pegawai</h3>
-                    <form method="GET" class="d-flex flex-wrap align-items-end">
-                        <div class="form-group mb-0 mr-3">
-                            <label class="font-weight-bold mb-1 font-size-sm text-muted">Kelompok</label>
-                            <select name="kelompok" class="form-control form-control-solid" style="width: 200px;" onchange="this.form.submit()">
-                                <option value="">Semua Kelompok</option>
-                                @foreach ($komposisi as $item)
-                                    <option value="{{ $item['kelompok'] }}" @selected($kelompokFilter === $item['kelompok'])>{{ $item['label'] }}</option>
-                                @endforeach
-                            </select>
+                    <div class="section-kicker mb-1">Sorotan data</div>
+                    <h3 class="font-weight-bolder mb-4">Kelompok terbesar</h3>
+                    <div class="row mb-4">
+                        <div class="col-sm-6 mb-3 mb-sm-0">
+                            <div class="stat-panel">
+                                <div class="stat-value">{{ $kelompokTerbesar['total'] ?? 0 }}</div>
+                                <div class="stat-label mt-2">pegawai</div>
+                                <div class="font-weight-bolder text-dark mt-3">{{ $kelompokTerbesar['label'] ?? 'Belum ada data' }}</div>
+                            </div>
                         </div>
-                        <div class="form-group mb-0 mr-3">
-                            <label class="font-weight-bold mb-1 font-size-sm text-muted">Cari Nama/NIP</label>
-                            <input type="text" name="cari" value="{{ $cari }}" placeholder="Cari..." class="form-control form-control-solid" style="width: 200px;">
+                        <div class="col-sm-6">
+                            <div class="stat-panel" style="border-left-color:#6236db;">
+                                <div class="stat-value">{{ $kelompokTerbesar['persentase'] ?? 0 }}%</div>
+                                <div class="stat-label mt-2">dari total pegawai</div>
+                                <div class="font-weight-bolder text-dark mt-3">Kontribusi terbesar</div>
+                            </div>
                         </div>
-                        <button type="submit" class="btn btn-primary font-weight-bold px-6"><i class="fas fa-search mr-2"></i>Cari</button>
-                        @if ($kelompokFilter || $cari)
-                            <a href="{{ route('divisi.sdm.komposisi', $division->slug) }}" class="ml-3 text-muted font-weight-bold">Reset</a>
-                        @endif
-                    </form>
+                    </div>
+                    @foreach ($komposisi as $index => $item)
+                    <div class="group-row">
+                        <div class="d-flex justify-content-between align-items-center mb-2">
+                            <div class="d-flex align-items-center">
+                                <span class="group-dot mr-2" style="background:{{ $warnaGrafik[$index % count($warnaGrafik)] }};"></span>
+                                <span class="font-weight-bold text-dark font-size-sm">{{ $item['label'] }}</span>
+                            </div>
+                            <span class="font-weight-bolder text-dark font-size-sm">{{ $item['total'] }} <span class="text-muted font-weight-normal">({{ $item['persentase'] }}%)</span></span>
+                        </div>
+                        <div class="progress-track"><div class="progress-value" style="width:{{ $item['persentase'] }}%; background:{{ $warnaGrafik[$index % count($warnaGrafik)] }};"></div></div>
+                    </div>
+                    @endforeach
                 </div>
             </div>
         </div>
@@ -86,36 +110,31 @@
 
     <div class="card modern-card mb-6">
         <div class="card-body p-5">
-            <h3 class="font-weight-bolder mb-4">Daftar Pegawai ({{ $pegawai->count() }})</h3>
+            <div class="d-flex justify-content-between align-items-center mb-4">
+                <div>
+                    <div class="section-kicker">Data terperinci</div>
+                    <h3 class="font-weight-bolder mb-0">Ringkasan Komposisi</h3>
+                </div>
+                <span class="badge badge-light font-weight-bold">{{ $komposisi->count() }} kelompok</span>
+            </div>
             <div class="table-responsive">
                 <table class="table table-modern">
                     <thead>
                         <tr>
-                            <th>Nama</th>
-                            <th>NIP</th>
-                            <th>Profesi</th>
-                            <th>Kelompok</th>
-                            <th>Unit Kerja</th>
-                            <th>Status</th>
+                            <th>Kelompok Besar</th>
+                            <th class="text-right">Jumlah Pegawai</th>
+                            <th class="text-right">Persentase</th>
                         </tr>
                     </thead>
                     <tbody>
-                        @forelse ($pegawai as $p)
+                        @forelse ($komposisi as $item)
                         <tr>
-                            <td>
-                                <div class="d-flex align-items-center">
-                                    <div class="avatar-circle mr-3">{{ strtoupper(substr($p->nama, 0, 1)) }}</div>
-                                    <span class="font-weight-bold text-dark">{{ $p->nama }}</span>
-                                </div>
-                            </td>
-                            <td class="text-muted">{{ $p->nip }}</td>
-                            <td>{{ $p->profesi->nama_profesi ?? '-' }}</td>
-                            <td><span class="badge badge-modern" style="background:#F1E9FF; color:#8950FC;">{{ $p->kelompok_label }}</span></td>
-                            <td>{{ $p->unitKerja->nama_unit ?? '-' }}</td>
-                            <td class="text-muted font-size-sm">{{ str_replace('_', ' ', ucfirst($p->status_kepegawaian ?? '-')) }}</td>
+                            <td class="font-weight-bold text-dark"><span class="rank-number d-inline-block">{{ str_pad($loop->iteration, 2, '0', STR_PAD_LEFT) }}</span>{{ $item['label'] }}</td>
+                            <td class="text-right font-weight-bold">{{ $item['total'] }}</td>
+                            <td class="text-right font-weight-bold text-primary">{{ $item['persentase'] }}%</td>
                         </tr>
                         @empty
-                        <tr><td colspan="6" class="text-center text-muted py-6">Tidak ada pegawai yang cocok dengan filter</td></tr>
+                        <tr><td colspan="3" class="text-center text-muted py-6">Belum ada data komposisi pegawai</td></tr>
                         @endforelse
                     </tbody>
                 </table>

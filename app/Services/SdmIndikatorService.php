@@ -31,43 +31,14 @@ class SdmIndikatorService
         return [
             'pns' => (int) ($hasil['pns'] ?? 0),
             'pppk' => (int) ($hasil['pppk'] ?? 0),
-            'kontrak_blu' => (int) ($hasil['kontrak_blu'] ?? 0),
+            'blu' => (int) ($hasil['blu'] ?? 0),
+            'mitra' => (int) ($hasil['mitra'] ?? 0),
+            'magang' => (int) ($hasil['magang'] ?? 0),
         ];
     }
 
     /**
-     * Klasifikasi 1 profesi ke salah satu dari 5 kelompok SDM (dokter, perawat, nakes_lain,
-     * administrasi, pendukung). Dipakai bareng oleh komposisiSdm() dan daftarPegawai() biar
-     * logic pengelompokannya konsisten di satu tempat.
-     */
-    protected function klasifikasiKelompok(string $kategoriProfesi, string $namaProfesi): string
-    {
-        return match ($kategoriProfesi) {
-            'medis' => 'dokter',
-            'keperawatan' => 'perawat',
-            'nakes_lain' => 'nakes_lain',
-            default => str_contains(strtolower($namaProfesi), 'admin')
-                ? 'administrasi'
-                : 'pendukung',
-        };
-    }
-
-    protected function labelKelompok(): array
-    {
-        return [
-            'dokter' => 'Dokter',
-            'perawat' => 'Perawat',
-            'nakes_lain' => 'Tenaga Kesehatan Lain',
-            'administrasi' => 'Tenaga Administrasi',
-            'pendukung' => 'Tenaga Pendukung',
-        ];
-    }
-
-    /**
-     * Komposisi SDM per kelompok: Dokter, Perawat, Tenaga Kesehatan Lain, Tenaga Administrasi,
-     * Tenaga Pendukung. 5 kelompok ini dipetakan dari 4 kategori profesi yang sudah ada di database
-     * (medis, keperawatan, nakes_lain, nonkesehatan) — kategori "nonkesehatan" dipecah jadi
-     * "administrasi" vs "pendukung" berdasarkan nama profesinya, TANPA ubah skema/tabel.
+     * Komposisi SDM berdasarkan kelompok besar dari data asli db_pegawai.
      * Return: collection [ ['kelompok' => ..., 'label' => ..., 'total' => ..., 'persentase' => ...], ... ]
      * Diurutkan dari yang jumlahnya paling besar.
      */
@@ -79,55 +50,19 @@ class SdmIndikatorService
             return collect();
         }
 
-        $label = $this->labelKelompok();
-
-        $pegawai = Pegawai::where('pegawai.aktif', true)
-            ->join('profesi', 'pegawai.profesi_id', '=', 'profesi.id')
-            ->selectRaw('profesi.kategori, profesi.nama_profesi')
-            ->get();
-
-        $kelompokTerhitung = $pegawai->countBy(
-            fn($p) => $this->klasifikasiKelompok($p->kategori, $p->nama_profesi)
-        );
+        $kelompokTerhitung = Pegawai::where('aktif', true)
+            ->pluck('kelompok_besar')
+            ->map(fn($kelompok) => $kelompok ?: 'Belum Diisi')
+            ->countBy();
 
         return $kelompokTerhitung
             ->map(fn($jumlah, $kelompok) => [
                 'kelompok' => $kelompok,
-                'label' => $label[$kelompok] ?? ucfirst($kelompok),
+                'label' => $kelompok,
                 'total' => $jumlah,
                 'persentase' => round(($jumlah / $total) * 100, 1),
             ])
             ->sortByDesc('total')
-            ->values();
-    }
-
-    /**
-     * Daftar pegawai aktif lengkap (dipakai di sub-menu "Komposisi Pegawai"), dengan kelompok
-     * SDM-nya masing-masing, bisa difilter per kelompok dan/atau kata kunci nama/NIP.
-     */
-    public function daftarPegawai(?string $kelompok = null, ?string $cari = null)
-    {
-        $label = $this->labelKelompok();
-
-        $query = Pegawai::where('pegawai.aktif', true)
-            ->with(['profesi', 'unitKerja']);
-
-        if ($cari) {
-            $query->where(function ($q) use ($cari) {
-                $q->where('nama', 'like', "%{$cari}%")
-                    ->orWhere('nip', 'like', "%{$cari}%");
-            });
-        }
-
-        return $query->get()
-            ->map(function ($p) use ($label) {
-                $kelompokPegawai = $this->klasifikasiKelompok($p->profesi->kategori, $p->profesi->nama_profesi);
-                $p->kelompok = $kelompokPegawai;
-                $p->kelompok_label = $label[$kelompokPegawai] ?? ucfirst($kelompokPegawai);
-                return $p;
-            })
-            ->when($kelompok, fn($collection) => $collection->where('kelompok', $kelompok))
-            ->sortBy('nama')
             ->values();
     }
 
@@ -333,10 +268,9 @@ class SdmIndikatorService
     }
 
     /**
-     * Tabel 1: Data Pegawai lengkap (NIK, NIP, Nama, Tanggal & Tempat Lahir, JK, Pendidikan,
-     * Jabatan, Golongan, Unit Kerja). Dipakai di sub-menu "Data Pegawai".
+     * Tabel 1: Data Pegawai ringkas. Dipakai di sub-menu "Data Pegawai".
      */
-    public function daftarLengkapPegawai(?string $cari = null)
+    public function daftarLengkapPegawai(?string $cari = null, bool $paginate = true)
     {
         $query = Pegawai::where('aktif', true)->with(['unitKerja']);
 
@@ -348,7 +282,9 @@ class SdmIndikatorService
             });
         }
 
-        return $query->orderBy('nama')->get();
+        $query->orderBy('nama');
+
+        return $paginate ? $query->paginate(50)->withQueryString() : $query->get();
     }
 
     /**

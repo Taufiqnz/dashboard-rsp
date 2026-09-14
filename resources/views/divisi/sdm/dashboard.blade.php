@@ -31,6 +31,15 @@
         box-shadow: 0 4px 18px rgba(0,0,0,.06);
         transition: transform .2s ease, box-shadow .2s ease;
         height: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+    .stat-card::before {
+        content: '';
+        position: absolute;
+        top: 0; left: 0; right: 0;
+        height: 4px;
+        background: var(--accent, #8950FC);
     }
     .stat-card:hover {
         transform: translateY(-4px);
@@ -38,13 +47,59 @@
     }
     .stat-icon {
         width: 52px; height: 52px;
-        border-radius: 14px;
+        border-radius: 50%;
         display: flex; align-items: center; justify-content: center;
-        font-size: 22px;
+        font-size: 20px;
         margin-bottom: 14px;
+        box-shadow: 0 4px 10px rgba(0,0,0,.06);
     }
     .stat-value { font-size: 28px; font-weight: 800; line-height: 1.1; }
-    .stat-label { font-size: 13px; font-weight: 600; color: #7e8299; margin-top: 4px; }
+    .stat-label {
+        font-size: 12px; font-weight: 700; color: #7e8299; margin-top: 6px;
+        text-transform: uppercase; letter-spacing: .5px;
+    }
+    .stat-sub { font-size: 12px; font-weight: 600; color: #a1a5b7; margin-top: 4px; }
+
+    /* Kartu hero: Jumlah Pegawai */
+    .hero-card {
+        background: linear-gradient(135deg, #8950FC 0%, #6236DB 100%);
+        border-radius: 18px;
+        padding: 26px 30px;
+        color: #fff;
+        box-shadow: 0 10px 30px rgba(137,80,252,.22);
+        display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap;
+        gap: 20px;
+    }
+    .hero-icon {
+        width: 64px; height: 64px; border-radius: 50%;
+        background: rgba(255,255,255,.18);
+        display: flex; align-items: center; justify-content: center;
+        font-size: 28px; flex-shrink: 0;
+    }
+    .hero-value { font-size: 38px; font-weight: 800; line-height: 1; }
+    .hero-label { font-size: 13px; font-weight: 600; color: rgba(255,255,255,.85); margin-top: 4px; }
+    .hero-chip {
+        background: rgba(255,255,255,.15);
+        border-radius: 12px;
+        padding: 10px 16px;
+        text-align: center;
+        min-width: 90px;
+    }
+    .hero-chip .chip-value { font-size: 18px; font-weight: 800; }
+    .hero-chip .chip-label { font-size: 11px; font-weight: 600; color: rgba(255,255,255,.8); margin-top: 2px; }
+
+    .section-title {
+        font-size: 14px; font-weight: 700; color: #a1a5b7;
+        text-transform: uppercase; letter-spacing: .6px;
+        margin: 28px 0 14px;
+        display: flex; align-items: center; gap: 10px;
+    }
+    .section-title::after {
+        content: '';
+        flex: 1;
+        height: 1px;
+        background: #eaeaf0;
+    }
 
     .modern-card {
         background: #fff;
@@ -94,7 +149,7 @@
         <button type="submit" class="btn btn-primary font-weight-bold px-6"><i class="fas fa-filter mr-2"></i>Terapkan</button>
     </form>
 
-        {{-- 8 Kartu Ringkasan: Jumlah & Komposisi Pegawai + Status Kepegawaian --}}
+    {{-- Ringkasan: Jumlah Pegawai (hero) + Komposisi Tenaga + Status Kepegawaian --}}
     @php
         // Ambil dari komposisi_sdm yang udah dihitung service (dokter/perawat/nakes_lain/administrasi/pendukung)
         $totalPerKelompok = $data['komposisi_sdm']->pluck('total', 'kelompok');
@@ -102,62 +157,118 @@
         $jumlahPerawat = $totalPerKelompok['perawat'] ?? 0;
         $jumlahPenunjang = $totalPerKelompok['nakes_lain'] ?? 0;
         $jumlahAdministrasi = ($totalPerKelompok['administrasi'] ?? 0) + ($totalPerKelompok['pendukung'] ?? 0);
+        $totalPegawai = max($data['total_pegawai'], 1); // hindari divide by zero
+
+        $persen = fn($n) => round(($n / $totalPegawai) * 100, 1);
     @endphp
+
+    {{-- Hero: Jumlah Pegawai --}}
+    <div class="hero-card mb-4">
+        <div class="d-flex align-items-center" style="gap: 20px;">
+            <div class="hero-icon"><i class="fas fa-users"></i></div>
+            <div>
+                <div class="hero-value">{{ number_format($data['total_pegawai']) }}</div>
+                <div class="hero-label">Total Pegawai Aktif</div>
+            </div>
+        </div>
+        <div class="d-flex" style="gap: 12px; flex-wrap: wrap;">
+            <div class="hero-chip">
+                <div class="chip-value">{{ $jumlahDokter }}</div>
+                <div class="chip-label">Dokter</div>
+            </div>
+            <div class="hero-chip">
+                <div class="chip-value">{{ $jumlahPerawat }}</div>
+                <div class="chip-label">Perawat</div>
+            </div>
+            <div class="hero-chip">
+                <div class="chip-value">{{ $jumlahPenunjang }}</div>
+                <div class="chip-label">Penunjang</div>
+            </div>
+            <div class="hero-chip">
+                <div class="chip-value">{{ $jumlahAdministrasi }}</div>
+                <div class="chip-label">Administrasi</div>
+            </div>
+        </div>
+    </div>
+
+    {{-- Komposisi Tenaga Kerja --}}
+    <div class="section-title"><i class="fas fa-layer-group"></i> Komposisi Tenaga Kerja</div>
     <div class="row">
         <div class="col-xl-3 col-md-6 mb-4">
-            <div class="card stat-card"><div class="card-body">
-                <div class="stat-icon" style="background:#F1E9FF; color:#8950FC;"><i class="fas fa-user-friends"></i></div>
-                <div class="stat-value text-dark">{{ number_format($data['total_pegawai']) }}</div>
-                <div class="stat-label">Jumlah Pegawai</div>
-            </div></div>
-        </div>
-        <div class="col-xl-3 col-md-6 mb-4">
-            <div class="card stat-card"><div class="card-body">
+            <div class="card stat-card" style="--accent:#6993FF;"><div class="card-body">
                 <div class="stat-icon" style="background:#EEF3FF; color:#6993FF;"><i class="fas fa-user-doctor fa-user-md"></i></div>
                 <div class="stat-value text-dark">{{ number_format($jumlahDokter) }}</div>
                 <div class="stat-label">Dokter</div>
+                <div class="stat-sub">{{ $persen($jumlahDokter) }}% dari total pegawai</div>
             </div></div>
         </div>
         <div class="col-xl-3 col-md-6 mb-4">
-            <div class="card stat-card"><div class="card-body">
+            <div class="card stat-card" style="--accent:#1BC5BD;"><div class="card-body">
                 <div class="stat-icon" style="background:#E8FFF3; color:#1BC5BD;"><i class="fas fa-user-nurse"></i></div>
                 <div class="stat-value text-dark">{{ number_format($jumlahPerawat) }}</div>
                 <div class="stat-label">Perawat</div>
+                <div class="stat-sub">{{ $persen($jumlahPerawat) }}% dari total pegawai</div>
             </div></div>
         </div>
         <div class="col-xl-3 col-md-6 mb-4">
-            <div class="card stat-card"><div class="card-body">
+            <div class="card stat-card" style="--accent:#FF8A3D;"><div class="card-body">
                 <div class="stat-icon" style="background:#FFF0E6; color:#FF8A3D;"><i class="fas fa-flask"></i></div>
                 <div class="stat-value text-dark">{{ number_format($jumlahPenunjang) }}</div>
                 <div class="stat-label">Penunjang</div>
+                <div class="stat-sub">{{ $persen($jumlahPenunjang) }}% dari total pegawai</div>
             </div></div>
         </div>
         <div class="col-xl-3 col-md-6 mb-4">
-            <div class="card stat-card"><div class="card-body">
+            <div class="card stat-card" style="--accent:#FFA800;"><div class="card-body">
                 <div class="stat-icon" style="background:#FFF6E0; color:#FFA800;"><i class="fas fa-briefcase"></i></div>
                 <div class="stat-value text-dark">{{ number_format($jumlahAdministrasi) }}</div>
                 <div class="stat-label">Administrasi</div>
+                <div class="stat-sub">{{ $persen($jumlahAdministrasi) }}% dari total pegawai</div>
             </div></div>
         </div>
-        <div class="col-xl-3 col-md-6 mb-4">
-            <div class="card stat-card"><div class="card-body">
+    </div>
+
+    {{-- Status Kepegawaian --}}
+    <div class="section-title"><i class="fas fa-id-badge"></i> Status Kepegawaian</div>
+    <div class="row">
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card stat-card" style="--accent:#8950FC;"><div class="card-body">
                 <div class="stat-icon" style="background:#F1E9FF; color:#8950FC;"><i class="fas fa-landmark"></i></div>
                 <div class="stat-value text-dark">{{ number_format($data['status_kepegawaian']['pns']) }}</div>
                 <div class="stat-label">PNS</div>
+                <div class="stat-sub">{{ $persen($data['status_kepegawaian']['pns']) }}% dari total pegawai</div>
             </div></div>
         </div>
-        <div class="col-xl-3 col-md-6 mb-4">
-            <div class="card stat-card"><div class="card-body">
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card stat-card" style="--accent:#6993FF;"><div class="card-body">
                 <div class="stat-icon" style="background:#EEF3FF; color:#6993FF;"><i class="fas fa-file-signature"></i></div>
                 <div class="stat-value text-dark">{{ number_format($data['status_kepegawaian']['pppk']) }}</div>
                 <div class="stat-label">PPPK</div>
+                <div class="stat-sub">{{ $persen($data['status_kepegawaian']['pppk']) }}% dari total pegawai</div>
             </div></div>
         </div>
-        <div class="col-xl-3 col-md-6 mb-4">
-            <div class="card stat-card"><div class="card-body">
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card stat-card" style="--accent:#F64E60;"><div class="card-body">
                 <div class="stat-icon" style="background:#FFE9EA; color:#F64E60;"><i class="fas fa-file-contract"></i></div>
-                <div class="stat-value text-dark">{{ number_format($data['status_kepegawaian']['kontrak_blu']) }}</div>
-                <div class="stat-label">Kontrak BLU</div>
+                <div class="stat-value text-dark">{{ number_format($data['status_kepegawaian']['blu']) }}</div>
+                <div class="stat-label">BLU</div>
+                <div class="stat-sub">{{ $persen($data['status_kepegawaian']['blu']) }}% dari total pegawai</div>
+            </div></div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card stat-card" style="--accent:#FF8A3D;"><div class="card-body">
+                <div class="stat-icon" style="background:#FFF0E6; color:#FF8A3D;"><i class="fas fa-handshake"></i></div>
+                <div class="stat-value text-dark">{{ number_format($data['status_kepegawaian']['mitra']) }}</div>
+                <div class="stat-label">Mitra</div>
+                <div class="stat-sub">{{ $persen($data['status_kepegawaian']['mitra']) }}% dari total pegawai</div>
+            </div></div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+            <div class="card stat-card" style="--accent:#7e8299;"><div class="card-body">
+                <div class="stat-icon" style="background:#F3F6F9; color:#7e8299;"><i class="fas fa-user-graduate"></i></div>
+                <div class="stat-value text-dark">{{ number_format($data['status_kepegawaian']['magang']) }}</div>
+                <div class="stat-label">Magang</div>
+                <div class="stat-sub">{{ $persen($data['status_kepegawaian']['magang']) }}% dari total pegawai</div>
             </div></div>
         </div>
     </div>

@@ -32,12 +32,16 @@ class DatabaseSeeder extends Seeder
             RadiologiSeeder::class,
             ResepSeeder::class,
             ResepDetailSeeder::class,
-            JadwalShiftSeeder::class,
-            AbsensiSeeder::class,
-            CutiSeeder::class,
-            PelatihanSeeder::class,
-            PegawaiPelatihanSeeder::class,
-            PenilaianKerjaSeeder::class,
+            // Seeder di bawah ini DINONAKTIFKAN SEMENTARA (bukan dihapus) sejak PegawaiSeeder
+            // pakai data pegawai ASLI (470 orang) — jangan sampai generate data aktivitas
+            // (absensi/cuti/shift/pelatihan) PALSU yang nempel ke nama orang asli.
+            // Aktifkan lagi kalau nanti udah ada data aktivitas asli buat pegawai ini.
+            // JadwalShiftSeeder::class,
+            // AbsensiSeeder::class,
+            // CutiSeeder::class,
+            // PelatihanSeeder::class,
+            // PegawaiPelatihanSeeder::class,
+            // PenilaianKerjaSeeder::class,
             PendapatanSeeder::class,
             PengeluaranSeeder::class,
             AnggaranSeeder::class,

@@ -34,7 +34,7 @@ class DataPegawaiController extends Controller
 
         $cari = $request->query('cari');
 
-        $pegawai = app(SdmIndikatorService::class)->daftarLengkapPegawai($cari);
+        $pegawai = app(SdmIndikatorService::class)->daftarLengkapPegawai($cari, false);
 
         $pdf = Pdf::loadView('pdf.sdm.data-pegawai', [
             'pegawai' => $pegawai,

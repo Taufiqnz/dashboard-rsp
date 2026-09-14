@@ -6,34 +6,48 @@
 <table>
     <thead>
         <tr>
-            <th>NIK</th>
-            <th>NIP</th>
             <th>Nama</th>
-            <th>Tanggal Lahir</th>
-            <th>Tempat Lahir</th>
-            <th>JK</th>
-            <th>Pendidikan</th>
-            <th>Jabatan</th>
+            <th>Status Pegawai</th>
+            <th>NIP</th>
+            <th>Kelamin</th>
+            <th>Kelompok Besar</th>
             <th>Golongan</th>
+            <th>Direktorat</th>
             <th>Unit Kerja</th>
         </tr>
     </thead>
     <tbody>
         @forelse ($pegawai as $p)
         <tr>
-            <td>{{ $p->nik ?? '-' }}</td>
-            <td>{{ $p->nip }}</td>
             <td>{{ $p->nama }}</td>
-            <td>{{ $p->tanggal_lahir ? $p->tanggal_lahir->format('d M Y') : '-' }}</td>
-            <td>{{ $p->tempat_lahir ?? '-' }}</td>
-            <td>{{ $p->jenis_kelamin }}</td>
-            <td>{{ $p->pendidikan ?? '-' }}</td>
-            <td>{{ $p->jabatan ?? '-' }}</td>
-            <td>{{ $p->golongan ?? '-' }}</td>
-            <td>{{ $p->unitKerja->nama_unit ?? '-' }}</td>
+            <td>
+                @if ($p->status_pegawai)
+                    {{ $p->status_pegawai }}
+                @else
+                    <span style="color:#999; font-style:italic;">Belum diisi</span>
+                @endif
+            </td>
+            <td>{{ $p->nip }}</td>
+            <td>{{ $p->kelamin ?? '-' }}</td>
+            <td>
+                @if ($p->kelompok_besar)
+                    {{ $p->kelompok_besar }}
+                @else
+                    <span style="color:#999; font-style:italic;">Belum diisi</span>
+                @endif
+            </td>
+            <td>
+                @if ($p->golongan)
+                    {{ $p->golongan }}
+                @else
+                    <span style="color:#999; font-style:italic;">Belum diisi</span>
+                @endif
+            </td>
+            <td>{{ $p->direktorat ?? '-' }}</td>
+            <td>{{ $p->unitKerja?->nama_unit ?? '-' }}</td>
         </tr>
         @empty
-        <tr><td colspan="10" style="text-align:center;">Tidak ada pegawai yang cocok</td></tr>
+        <tr><td colspan="8" style="text-align:center;">Tidak ada pegawai yang cocok</td></tr>
         @endforelse
     </tbody>
 </table>

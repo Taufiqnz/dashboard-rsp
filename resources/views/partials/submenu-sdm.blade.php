@@ -3,12 +3,12 @@
         ['label' => 'Ringkasan', 'route' => 'divisi.dashboard'],
         ['label' => 'Data Pegawai', 'route' => 'divisi.sdm.data-pegawai'],
         ['label' => 'Komposisi Pegawai', 'route' => 'divisi.sdm.komposisi'],
-        ['label' => 'Kehadiran', 'route' => 'divisi.sdm.kehadiran'],
-        ['label' => 'Cuti & Izin', 'route' => 'divisi.sdm.cuti-izin'],
-        ['label' => 'Jadwal Kerja', 'route' => 'divisi.sdm.jadwal-kerja'],
+        // ['label' => 'Kehadiran', 'route' => null], // nonaktif: belum ada data absensi asli
+        // ['label' => 'Cuti & Izin', 'route' => null], // nonaktif: belum ada data cuti/izin asli
+        // ['label' => 'Jadwal Kerja', 'route' => null], // nonaktif: belum ada data jadwal shift asli
         ['label' => 'Distribusi Pegawai', 'route' => 'divisi.sdm.distribusi'],
-        ['label' => 'Pelatihan', 'route' => 'divisi.sdm.pelatihan'],
-        ['label' => 'Produktivitas', 'route' => 'divisi.sdm.produktivitas'],
+        // ['label' => 'Pelatihan', 'route' => null], // nonaktif: belum ada data riwayat pelatihan asli
+        // ['label' => 'Produktivitas', 'route' => null], // nonaktif: unit kerja pegawai asli belum ke-link ke data kunjungan Layanan
     ];
 @endphp
 

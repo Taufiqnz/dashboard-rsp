@@ -52,11 +52,7 @@ class DirekturController extends Controller
                 $layanan->jumlahKunjungan($awalSebelumnya, $akhirSebelumnya)
             ),
             'bor' => $layanan->bor($awal, $akhir),
-            'kehadiran_sdm' => $kehadiranSdm,
-            'pertumbuhan_kehadiran' => $hitungPertumbuhan(
-                $kehadiranSdm,
-                $sdm->persentaseKehadiran($awalSebelumnya, $akhirSebelumnya)
-            ),
+            'total_pegawai' => $sdm->totalPegawai(),
             'total_pendapatan' => $totalPendapatan,
             'pertumbuhan_pendapatan' => $hitungPertumbuhan(
                 $totalPendapatan,

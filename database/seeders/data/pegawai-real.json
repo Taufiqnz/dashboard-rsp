@@ -1,0 +1,4702 @@
+[
+  {
+    "nama": "Abdul Rozak, SH",
+    "status_pegawai": "PNS",
+    "nip": "198305172010121001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Tim Kerja Hukum dan Humas"
+  },
+  {
+    "nama": "Achmad Munandar, AMK",
+    "status_pegawai": "PNS",
+    "nip": "197212301994031003",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Mawar"
+  },
+  {
+    "nama": "Ade Imas Sumaryati, SE",
+    "status_pegawai": "PNS",
+    "nip": "197108191997032002",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Tim Kerja Pelaksanaan Keuangan"
+  },
+  {
+    "nama": "Ade Jamaludin",
+    "status_pegawai": "PNS",
+    "nip": "196911032007011027",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Laboratorium dan Bank Darah"
+  },
+  {
+    "nama": "Ade Lukman",
+    "status_pegawai": "PNS",
+    "nip": "197304062014051001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Tim Kerja TURT"
+  },
+  {
+    "nama": "Ade Sapri, AMK",
+    "status_pegawai": "PNS",
+    "nip": "198208302010121004",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Bedah Sentral"
+  },
+  {
+    "nama": "Ade Setiawan",
+    "status_pegawai": "PNS",
+    "nip": "197811071998031002",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Instalasi Sterilisasi dan Binatu"
+  },
+  {
+    "nama": "Ade Supriatna, AMK",
+    "status_pegawai": "PNS",
+    "nip": "197304172000031002",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Jalan"
+  },
+  {
+    "nama": "Ady Friadi, S.Sos",
+    "status_pegawai": "PNS",
+    "nip": "198410122010121002",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Tim Kerja TURT"
+  },
+  {
+    "nama": "Aep Hartono, AMK",
+    "status_pegawai": "PNS",
+    "nip": "197006211991031001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Bedah Sentral"
+  },
+  {
+    "nama": "Agung Kresna Nugraha, S.Kep., Ners",
+    "status_pegawai": "PNS",
+    "nip": "198907302010121002",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Teratai"
+  },
+  {
+    "nama": "Agustina",
+    "status_pegawai": "PNS",
+    "nip": "197608011998032002",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Laboratorium dan Bank Darah"
+  },
+  {
+    "nama": "Ai Empat Patimah, S.Kep, Ners",
+    "status_pegawai": "PNS",
+    "nip": "198006272003122002",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Kacapiring Atas & Pinere"
+  },
+  {
+    "nama": "Alfhy Septiana Ningsih, S.Kep., Ners., M.Kep.,Sp.Kep.Onk",
+    "status_pegawai": "PNS",
+    "nip": "198609162012122001",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat SPP",
+    "unit_kerja": "Tim Kerja Diklat"
+  },
+  {
+    "nama": "Amanat Bhakti Laras, AMK",
+    "status_pegawai": "PNS",
+    "nip": "198710212020121001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Intensif"
+  },
+  {
+    "nama": "Amirudin, S.Kep., Ners",
+    "status_pegawai": "PNS",
+    "nip": "198004242005011003",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Lily"
+  },
+  {
+    "nama": "Andi Syehabudin Muhsin, AMK",
+    "status_pegawai": "PNS",
+    "nip": "198712092012121001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Intensif"
+  },
+  {
+    "nama": "Andrian Waluya Adi, S.Kep., Ners., M.Kep., Sp.Kep.Onk",
+    "status_pegawai": "PNS",
+    "nip": "198403222012121001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Tanjung"
+  },
+  {
+    "nama": "Anggra Martina, S.Kep, Ners",
+    "status_pegawai": "PNS",
+    "nip": "198503212008011002",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Jalan"
+  },
+  {
+    "nama": "Alyssa Puteri Lesmana, A.Md.Keb",
+    "status_pegawai": "PNS",
+    "nip": "199901252025062008",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Bidan",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Gawat Darurat"
+  },
+  {
+    "nama": "Anggraini Santi Santoso, A.Md.Kep",
+    "status_pegawai": "PNS",
+    "nip": "198505072009122001",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Mawar"
+  },
+  {
+    "nama": "Anton Heni Wibowo, AMK",
+    "status_pegawai": "PNS",
+    "nip": "197902252005011003",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Jalan"
+  },
+  {
+    "nama": "Ardian Faisal, S.Tr.Kes",
+    "status_pegawai": "PNS",
+    "nip": "198909012010121002",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Laboratorium dan Bank Darah"
+  },
+  {
+    "nama": "Ari Andriyana S, AMd",
+    "status_pegawai": "PNS",
+    "nip": "198001252009121002",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Instalasi Rekam Medik"
+  },
+  {
+    "nama": "Aris Aditya Eka Perdana, S.ST",
+    "status_pegawai": "PNS",
+    "nip": "199010072019021001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Instalasi Verifikasi dan Penjaminan Pasien"
+  },
+  {
+    "nama": "Ani Maulani, SE",
+    "status_pegawai": "PNS",
+    "nip": "198001302005012001",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "SPI",
+    "unit_kerja": "SPI"
+  },
+  {
+    "nama": "Asep Roni, SKM",
+    "status_pegawai": "PNS",
+    "nip": "197609102006041002",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Instalasi Kesling dan K3RS"
+  },
+  {
+    "nama": "Asep Sutardi, Amd.Kep",
+    "status_pegawai": "PNS",
+    "nip": "198508152010121002",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Gawat Darurat"
+  },
+  {
+    "nama": "Ayi Taufiq Saepudin, S.Tr",
+    "status_pegawai": "PNS",
+    "nip": "198711122014021001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Instalasi Rekam Medik"
+  },
+  {
+    "nama": "Aryani, AMK",
+    "status_pegawai": "PNS",
+    "nip": "198509252009122002",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Intensif"
+  },
+  {
+    "nama": "Bambang Herlambang, A.Md.Kep",
+    "status_pegawai": "PNS",
+    "nip": "198612292012121001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Intensif"
+  },
+  {
+    "nama": "Budi Rahayu, SKM, MKM",
+    "status_pegawai": "PNS",
+    "nip": "197403271999031003",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat SPP",
+    "unit_kerja": "Tim Kerja PPAE"
+  },
+  {
+    "nama": "Budi Ramli, S.Kep",
+    "status_pegawai": "PNS",
+    "nip": "197211151994031002",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Komite PPI & PPRA",
+    "unit_kerja": "Komite PPI dan PPRA"
+  },
+  {
+    "nama": "Asri Faramitha, A.Md.Kep",
+    "status_pegawai": "PNS",
+    "nip": "198901292010122006",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Anggrek Melati"
+  },
+  {
+    "nama": "Ayi Yulia Evanty, A.Md.Rad",
+    "status_pegawai": "PNS",
+    "nip": "198807202014022001",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Radiologi"
+  },
+  {
+    "nama": "Ayu Irnawati, A.Md",
+    "status_pegawai": "PNS",
+    "nip": "198909162014022001",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Instalasi Rekam Medik"
+  },
+  {
+    "nama": "Cahya Hairani",
+    "status_pegawai": "PNS",
+    "nip": "197907022014122001",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Tim Kerja Pelaksanaan Keuangan"
+  },
+  {
+    "nama": "Dadang Sa Adulloh, S.Kep., Ners,M.Kep",
+    "status_pegawai": "PNS",
+    "nip": "198304112009121001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Mawar"
+  },
+  {
+    "nama": "Danny Purwanda, S.Kep., Ners",
+    "status_pegawai": "PNS",
+    "nip": "198601182008121004",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Intensif"
+  },
+  {
+    "nama": "Christin Andriyani, S.Kep., Ners",
+    "status_pegawai": "PNS",
+    "nip": "198301042005012003",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Melati"
+  },
+  {
+    "nama": "Cica Parida, S.Kep., Ners.",
+    "status_pegawai": "PNS",
+    "nip": "197909072005012002",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Anggrek Melati"
+  },
+  {
+    "nama": "Dedi Junaedi, AMd.TE",
+    "status_pegawai": "PNS",
+    "nip": "197710191999031002",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Instalasi PSRS"
+  },
+  {
+    "nama": "Deni Hadiono, SP",
+    "status_pegawai": "PNS",
+    "nip": "197003281998031001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Instalasi Rekam Medik"
+  },
+  {
+    "nama": "Deni Rahayu, S.ST",
+    "status_pegawai": "PNS",
+    "nip": "196801191988031006",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Laboratorium dan Bank Darah"
+  },
+  {
+    "nama": "Citra Maulida, SST",
+    "status_pegawai": "PNS",
+    "nip": "198611152008122002",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Bidan",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Gawat Darurat"
+  },
+  {
+    "nama": "Cucu Malihah, S.Kep., Ners",
+    "status_pegawai": "PNS",
+    "nip": "199405292020122005",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Mawar"
+  },
+  {
+    "nama": "Cucu Rosmala, AMK",
+    "status_pegawai": "PNS",
+    "nip": "198412302008122004",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Intensif"
+  },
+  {
+    "nama": "Cucu Susan Nurhidayah, A.Md",
+    "status_pegawai": "PNS",
+    "nip": "198804232010122001",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Laboratorium dan Bank Darah"
+  },
+  {
+    "nama": "Dian Faridi, S. Si",
+    "status_pegawai": "PNS",
+    "nip": "198710122014021001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Laboratorium dan Bank Darah"
+  },
+  {
+    "nama": "Dian Nurdiansyah, SKM",
+    "status_pegawai": "PNS",
+    "nip": "198308022009121001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Instalasi PSRS"
+  },
+  {
+    "nama": "Dasitoh, AMK",
+    "status_pegawai": "PNS",
+    "nip": "197401121999032004",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Kacapiring"
+  },
+  {
+    "nama": "Dikdik Hermawan, S.Kep, Ners",
+    "status_pegawai": "PNS",
+    "nip": "197307151995031001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "ULP",
+    "unit_kerja": "ULP"
+  },
+  {
+    "nama": "Debby Faradiza, AMK",
+    "status_pegawai": "PNS",
+    "nip": "197702061997032001",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Kacapiring"
+  },
+  {
+    "nama": "dr. Achmad Naufal, M.K.M",
+    "status_pegawai": "PNS",
+    "nip": "198203282014121001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Dokter",
+    "golongan": "Dokter Umum",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Departemen Medik"
+  },
+  {
+    "nama": "dr. Agust Sukendra",
+    "status_pegawai": "PNS",
+    "nip": "196908282005011007",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Dokter",
+    "golongan": "Dokter Umum",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Departemen Medik"
+  },
+  {
+    "nama": "dr. Ardhana Risworo Anom Yuswono, Sp. An",
+    "status_pegawai": "PNS",
+    "nip": "197412182014121001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Dokter",
+    "golongan": "Dokter Spesialis",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Departemen Penunjang"
+  },
+  {
+    "nama": "dr. Bambang Adi Santoso",
+    "status_pegawai": "PNS",
+    "nip": "199108202018011001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Dokter",
+    "golongan": "Dokter Spesialis",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Departemen Respiratori"
+  },
+  {
+    "nama": "dr. Beny Gunawan Sp.OG",
+    "status_pegawai": "PNS",
+    "nip": "198312172022031001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Dokter",
+    "golongan": "Dokter Spesialis",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Departemen Bedah"
+  },
+  {
+    "nama": "dr. David Ririmasse, Sp. Rad",
+    "status_pegawai": "PNS",
+    "nip": "198409092015031001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Dokter",
+    "golongan": "Dokter Spesialis",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Departemen Penunjang"
+  },
+  {
+    "nama": "Dessy Widya Rini, S. Kep., Ners",
+    "status_pegawai": "PNS",
+    "nip": "198612292008012001",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Tanjung"
+  },
+  {
+    "nama": "Dewi Nurul Islami Rosyad, S. Kep., Ners",
+    "status_pegawai": "PNS",
+    "nip": "198407012012122001",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Mawar"
+  },
+  {
+    "nama": "dr. Ganda Raja Partogi Sinaga, MKM",
+    "status_pegawai": "PNS",
+    "nip": "197511012005011008",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat SPP",
+    "unit_kerja": "Direksi"
+  },
+  {
+    "nama": "dr. Ida Bagus Sila Wiweka, Sp.P, (K), MARS.",
+    "status_pegawai": "PNS",
+    "nip": "196706011997031004",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Dokter",
+    "golongan": "Dokter Sub Spesialis",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Departemen Respiratori"
+  },
+  {
+    "nama": "Diah Sri Hardiyati, S.Farm, Apt",
+    "status_pegawai": "PNS",
+    "nip": "197106031990032001",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Farmasi"
+  },
+  {
+    "nama": "Dian Anggriani Susanti Dewi, S.Kep., Ners",
+    "status_pegawai": "PNS",
+    "nip": "198102092006042018",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Kacapiring"
+  },
+  {
+    "nama": "Diana Herawati, S. Farm, Apt",
+    "status_pegawai": "PNS",
+    "nip": "197609232014122001",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Farmasi"
+  },
+  {
+    "nama": "dr. Saladdin Tjokronegoro, Sp.BTKV (K)",
+    "status_pegawai": "PNS",
+    "nip": "197406032009121001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Dokter",
+    "golongan": "Dokter Sub Spesialis",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Departemen Bedah"
+  },
+  {
+    "nama": "dr. Suwarga Adam",
+    "status_pegawai": "PNS",
+    "nip": "197105192006041002",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Dokter",
+    "golongan": "Dokter Umum",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Tim Kerja Pelayanan Medik"
+  },
+  {
+    "nama": "Dinta Lokanita, AMK",
+    "status_pegawai": "PNS",
+    "nip": "198812012012122001",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Jalan"
+  },
+  {
+    "nama": "dr. A. Marjuliana Reski Yanti",
+    "status_pegawai": "PNS",
+    "nip": "199907152025062008",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Dokter",
+    "golongan": "Dokter Umum",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Departemen Medik"
+  },
+  {
+    "nama": "dr. Arlinda Rakhma Djawar",
+    "status_pegawai": "PNS",
+    "nip": "197506302008012007",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Dokter",
+    "golongan": "Dokter Umum",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Departemen Medik"
+  },
+  {
+    "nama": "Edi Susanto",
+    "status_pegawai": "PNS",
+    "nip": "197712132008121002",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Teratai"
+  },
+  {
+    "nama": "dr. Bunga Annisa Hapsari, Sp.KFR",
+    "status_pegawai": "PNS",
+    "nip": "199001292018012002",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Dokter",
+    "golongan": "Dokter Spesialis",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Departemen Medik"
+  },
+  {
+    "nama": "Eko Hari Muryanto, A.Md.Rad",
+    "status_pegawai": "PNS",
+    "nip": "198212302014021001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Radiologi"
+  },
+  {
+    "nama": "dr. Diah Mirlia, Sp.B",
+    "status_pegawai": "PNS",
+    "nip": "198103252020122001",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Dokter",
+    "golongan": "Dokter Spesialis",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Departemen Bedah"
+  },
+  {
+    "nama": "Elan Jaelani",
+    "status_pegawai": "PNS",
+    "nip": "197511112007011027",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Instalasi Sterilisasi dan Binatu"
+  },
+  {
+    "nama": "Elang Sumarna, S.Kep",
+    "status_pegawai": "PNS",
+    "nip": "197107021993031001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "ULP",
+    "unit_kerja": "ULP"
+  },
+  {
+    "nama": "dr. Dini Wulandari",
+    "status_pegawai": "PNS",
+    "nip": "198010212008012015",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Dokter",
+    "golongan": "Dokter Umum",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Tim Kerja Pelayanan Penunjang"
+  },
+  {
+    "nama": "Dr. dr. Zulvayanti, Sp. OG,(K), M.Kes",
+    "status_pegawai": "PNS",
+    "nip": "197503082009122001",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Dokter",
+    "golongan": "Dokter Sub Spesialis",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Direksi"
+  },
+  {
+    "nama": "dr. Emaculata Advensy Rara",
+    "status_pegawai": "PNS",
+    "nip": "199612082025062007",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Dokter",
+    "golongan": "Dokter Umum",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Departemen Medik"
+  },
+  {
+    "nama": "dr. Fitria Rahmitasari, Sp.PA",
+    "status_pegawai": "PNS",
+    "nip": "197701022009122001",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Dokter",
+    "golongan": "Dokter Spesialis",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Departemen Penunjang"
+  },
+  {
+    "nama": "Eman Sulaeman, S.Kep., Ners",
+    "status_pegawai": "PNS",
+    "nip": "198402082010121002",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Teratai"
+  },
+  {
+    "nama": "dr. Hayatun Naimah, Sp.P (K)",
+    "status_pegawai": "PNS",
+    "nip": "198008312008012014",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Dokter",
+    "golongan": "Dokter Sub Spesialis",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Departemen Respiratori"
+  },
+  {
+    "nama": "Endang Kuswardi",
+    "status_pegawai": "PNS",
+    "nip": "197702242009121001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Instalasi Sterilisasi dan Binatu"
+  },
+  {
+    "nama": "Endang Rohiman, A.Md.Kep",
+    "status_pegawai": "PNS",
+    "nip": "197603072010121001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Kacapiring"
+  },
+  {
+    "nama": "dr. Iin Maemunah, Sp.MK",
+    "status_pegawai": "PNS",
+    "nip": "198002092020122001",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Dokter",
+    "golongan": "Dokter Spesialis",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Departemen Penunjang"
+  },
+  {
+    "nama": "dr. Luthfira Fitri Darmaningtyas",
+    "status_pegawai": "PNS",
+    "nip": "199502202025062003",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Dokter",
+    "golongan": "Dokter Umum",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Departemen Medik"
+  },
+  {
+    "nama": "Fajar Veri Suprianto, S. Kep., Ners",
+    "status_pegawai": "PNS",
+    "nip": "198610092008011002",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Tim Kerja Pelayanan Keperawatan"
+  },
+  {
+    "nama": "Fasya Lucky Pratama, A.Md",
+    "status_pegawai": "PNS",
+    "nip": "199209272018011001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Instalasi Rekam Medik"
+  },
+  {
+    "nama": "Fikri Naufal, AMK",
+    "status_pegawai": "PNS",
+    "nip": "199504062018011001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Gawat Darurat"
+  },
+  {
+    "nama": "Firman Safary, A.Md",
+    "status_pegawai": "PNS",
+    "nip": "198610252009121002",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Laboratorium dan Bank Darah"
+  },
+  {
+    "nama": "Ganda Juanda, S.Kep., Ners",
+    "status_pegawai": "PNS",
+    "nip": "198601242008121004",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Gawat Darurat"
+  },
+  {
+    "nama": "Gani Kurdian, SKM",
+    "status_pegawai": "PNS",
+    "nip": "197206201996031002",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Instalasi Sterilisasi dan Binatu"
+  },
+  {
+    "nama": "Gita Muhamad, S.Kep., Ners",
+    "status_pegawai": "PNS",
+    "nip": "198511242009121003",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Teratai"
+  },
+  {
+    "nama": "Hakiki, S. Kep., Ners",
+    "status_pegawai": "PNS",
+    "nip": "198411092009121003",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Anggrek"
+  },
+  {
+    "nama": "Halim Hendrawan, SKM",
+    "status_pegawai": "PNS",
+    "nip": "197611202007011011",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Tim Kerja TURT"
+  },
+  {
+    "nama": "Hamzah, AMK.Nes",
+    "status_pegawai": "PNS",
+    "nip": "196904152000031003",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Bedah Sentral"
+  },
+  {
+    "nama": "dr. Neli Sumanti, Sp.PK., M.Kes",
+    "status_pegawai": "PNS",
+    "nip": "198012202014122001",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Dokter",
+    "golongan": "Dokter Spesialis",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Departemen Penunjang"
+  },
+  {
+    "nama": "Hari Hermawan, S.Kep",
+    "status_pegawai": "PNS",
+    "nip": "198102062012121001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Kacapiring"
+  },
+  {
+    "nama": "dr. Neni Sawitri, Sp.P (K)",
+    "status_pegawai": "PNS",
+    "nip": "196708132008012012",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Dokter",
+    "golongan": "Dokter Sub Spesialis",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Departemen Respiratori"
+  },
+  {
+    "nama": "Hendra Bayu Wiguna, S.Kep., Ners",
+    "status_pegawai": "PNS",
+    "nip": "198508142008011004",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Intensif"
+  },
+  {
+    "nama": "Hendra Setiadi, Amd",
+    "status_pegawai": "PNS",
+    "nip": "198503052010121002",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Tim Kerja Pelaksanaan Keuangan"
+  },
+  {
+    "nama": "Hendri Prayudhas, AMK",
+    "status_pegawai": "PNS",
+    "nip": "198411262008121002",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Intensif"
+  },
+  {
+    "nama": "Hendri Saputra Nasution, A.Md",
+    "status_pegawai": "PNS",
+    "nip": "198402272009121003",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Instalasi SIMRS"
+  },
+  {
+    "nama": "Hendrik Erwin",
+    "status_pegawai": "PNS",
+    "nip": "197706112009121001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "FKTP"
+  },
+  {
+    "nama": "dr. Nina Herlina, Sp.A",
+    "status_pegawai": "PNS",
+    "nip": "196206091991032004",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Dokter",
+    "golongan": "Dokter Spesialis",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Departemen Medik"
+  },
+  {
+    "nama": "Herman Wiryadi",
+    "status_pegawai": "PNS",
+    "nip": "197011132007011013",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Instalasi Sterilisasi dan Binatu"
+  },
+  {
+    "nama": "Herman Zacharias, S.Kom",
+    "status_pegawai": "PNS",
+    "nip": "197104281998031003",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Instalasi SIMRS"
+  },
+  {
+    "nama": "Heru Singadiredja",
+    "status_pegawai": "PNS",
+    "nip": "197604052008121002",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Mawar"
+  },
+  {
+    "nama": "Hikmat, S.ST",
+    "status_pegawai": "PNS",
+    "nip": "198203092008121004",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Radiologi"
+  },
+  {
+    "nama": "Husni Bahtiar, S.Kep., Ners",
+    "status_pegawai": "PNS",
+    "nip": "198309052008011003",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Intensif"
+  },
+  {
+    "nama": "dr. Priska Duana Putri, Sp.P (K)",
+    "status_pegawai": "PNS",
+    "nip": "198604132018012001",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Dokter",
+    "golongan": "Dokter Sub Spesialis",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Departemen Respiratori"
+  },
+  {
+    "nama": "Ifan Tyas Perdana, S.Kep., Ners.",
+    "status_pegawai": "PNS",
+    "nip": "198706012020121002",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Lily"
+  },
+  {
+    "nama": "dr. Riza Zahara Sp. An-TI",
+    "status_pegawai": "PNS",
+    "nip": "199005152015032004",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Dokter",
+    "golongan": "Dokter Spesialis",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Departemen Penunjang"
+  },
+  {
+    "nama": "Indra Nurdiana, SE",
+    "status_pegawai": "PNS",
+    "nip": "197809252009121001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Tim Kerja Pelaksanaan Keuangan"
+  },
+  {
+    "nama": "dr. Rumiani Manurung",
+    "status_pegawai": "PNS",
+    "nip": "199402072025062005",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Dokter",
+    "golongan": "Dokter Umum",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Departemen Medik"
+  },
+  {
+    "nama": "dr. Yulianita, MARS",
+    "status_pegawai": "PNS",
+    "nip": "197001222005022001",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Dokter",
+    "golongan": "Dokter Umum",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Departemen Medik"
+  },
+  {
+    "nama": "Dra. Wellya Hartati, Apt, MARS",
+    "status_pegawai": "PNS",
+    "nip": "196712161993032001",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Farmasi"
+  },
+  {
+    "nama": "Iqbal Gunawan, A.Md.TE",
+    "status_pegawai": "PNS",
+    "nip": "198709222014021001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Instalasi PSRS"
+  },
+  {
+    "nama": "Isul Mulyadi, S.Kep., Ners",
+    "status_pegawai": "PNS",
+    "nip": "198408022008121001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Tanjung"
+  },
+  {
+    "nama": "Iwan Ridwanullah, SKM, M.M",
+    "status_pegawai": "PNS",
+    "nip": "197012231993031004",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Tim Kerja Hukum dan Humas"
+  },
+  {
+    "nama": "Jaenudin",
+    "status_pegawai": "PNS",
+    "nip": "196902042008121001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Instalasi Rekam Medik"
+  },
+  {
+    "nama": "Jaja Sudrajat, AMd.",
+    "status_pegawai": "PNS",
+    "nip": "197901282008011007",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Instalasi PSRS"
+  },
+  {
+    "nama": "drg. Sri Boedi Dhiandani, M.K.M.",
+    "status_pegawai": "PNS",
+    "nip": "197503312014122001",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Dokter",
+    "golongan": "Dokter Gigi",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Departemen Medik"
+  },
+  {
+    "nama": "Kirman, AMd.Kep",
+    "status_pegawai": "PNS",
+    "nip": "198605052009121002",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Gawat Darurat"
+  },
+  {
+    "nama": "Kosidin",
+    "status_pegawai": "PNS",
+    "nip": "197603102008121002",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Gawat Darurat"
+  },
+  {
+    "nama": "Kurniawan Adiwidia, S.Kep, Ners",
+    "status_pegawai": "PNS",
+    "nip": "198601182008011001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Jalan"
+  },
+  {
+    "nama": "Lalan Suherlan, AMK",
+    "status_pegawai": "PNS",
+    "nip": "198403132008011005",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Intensif"
+  },
+  {
+    "nama": "Ega Irawandi, AMK",
+    "status_pegawai": "PNS",
+    "nip": "198308142008012008",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Gawat Darurat"
+  },
+  {
+    "nama": "Eka Rachmaliawati, A.Md",
+    "status_pegawai": "PNS",
+    "nip": "198710122022032001",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Instalasi Promosi Kesehatan dan Pemasaran"
+  },
+  {
+    "nama": "Luky Rahmat",
+    "status_pegawai": "PNS",
+    "nip": "197106282007011019",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Tim Kerja TURT"
+  },
+  {
+    "nama": "Lutfi Insan Safii, AMK. Nes",
+    "status_pegawai": "PNS",
+    "nip": "199110102015031007",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Bedah Sentral"
+  },
+  {
+    "nama": "Ela Nurlela, S.Tr.Kes",
+    "status_pegawai": "PNS",
+    "nip": "198101012005012002",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Laboratorium dan Bank Darah"
+  },
+  {
+    "nama": "Eli Mulyawati, AMK",
+    "status_pegawai": "PNS",
+    "nip": "199007312018012001",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Intensif"
+  },
+  {
+    "nama": "Elis Ida Rosidha",
+    "status_pegawai": "PNS",
+    "nip": "197212251994032002",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "FKTP"
+  },
+  {
+    "nama": "Elis Riki, S.T",
+    "status_pegawai": "PNS",
+    "nip": "198212112008122001",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "FKTP"
+  },
+  {
+    "nama": "Moh. Suaib, S.Kep., Ners",
+    "status_pegawai": "PNS",
+    "nip": "197707222010121001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Intensif"
+  },
+  {
+    "nama": "Muhamad Arif Eka Wijayanto, S.Si., Apt",
+    "status_pegawai": "PNS",
+    "nip": "198107292009121001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Farmasi"
+  },
+  {
+    "nama": "Muhamad Deden Sudira",
+    "status_pegawai": "PNS",
+    "nip": "197708152009121001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Instalasi PSRS"
+  },
+  {
+    "nama": "Muhamad Hardian, AMK",
+    "status_pegawai": "PNS",
+    "nip": "198901292010121002",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Bedah Sentral"
+  },
+  {
+    "nama": "Muhamad Nur Ihwan, SE. M.Ak",
+    "status_pegawai": "PNS",
+    "nip": "198101092009121001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Direksi"
+  },
+  {
+    "nama": "Muhammad Deni Heryana, S.Kep., Ners",
+    "status_pegawai": "PNS",
+    "nip": "198002152000031001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Bedah Sentral"
+  },
+  {
+    "nama": "Muhammad Farhan, S.Kep., Ners",
+    "status_pegawai": "PNS",
+    "nip": "198910292018011001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Intensif"
+  },
+  {
+    "nama": "Muhammad Firman Maulana, A.Md.Kep",
+    "status_pegawai": "PNS",
+    "nip": "198203232010121002",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Lily"
+  },
+  {
+    "nama": "Mujtahid Arismiadi, SKM",
+    "status_pegawai": "PNS",
+    "nip": "197604032000031002",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "ULP",
+    "unit_kerja": "ULP"
+  },
+  {
+    "nama": "Mulyono, S.Kep",
+    "status_pegawai": "PNS",
+    "nip": "196907041991031001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Jalan"
+  },
+  {
+    "nama": "Mumung Mulyantara, SKM",
+    "status_pegawai": "PNS",
+    "nip": "197601021999031002",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "SPI",
+    "unit_kerja": "SPI"
+  },
+  {
+    "nama": "Munandar, AMK",
+    "status_pegawai": "PNS",
+    "nip": "199108022018011001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Intensif"
+  },
+  {
+    "nama": "Mus Mulyadi, SKM",
+    "status_pegawai": "PNS",
+    "nip": "197407061997031002",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Komite Mutu",
+    "unit_kerja": "Komite Mutu"
+  },
+  {
+    "nama": "Musthofa, SKM",
+    "status_pegawai": "PNS",
+    "nip": "196904221993031001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Radiologi"
+  },
+  {
+    "nama": "Elisa Zayanti, S.Kep, Ners",
+    "status_pegawai": "PNS",
+    "nip": "198612032009122001",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Gawat Darurat"
+  },
+  {
+    "nama": "Ely Amalia, S.Kep., Ners",
+    "status_pegawai": "PNS",
+    "nip": "198402152008012006",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Bedah Sentral"
+  },
+  {
+    "nama": "Elyana Agatia, AMKL",
+    "status_pegawai": "PNS",
+    "nip": "199501022019022002",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Instalasi Kesling dan K3RS"
+  },
+  {
+    "nama": "Endah Rahmawati, S.Kep., Ners",
+    "status_pegawai": "PNS",
+    "nip": "198404042018012001",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Mawar"
+  },
+  {
+    "nama": "Erna Satwika Retno Pamungkas, S.Tr.Kes",
+    "status_pegawai": "PNS",
+    "nip": "197309152000032001",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rehabilitasi Medik"
+  },
+  {
+    "nama": "Erni Kartina, A.Md",
+    "status_pegawai": "PNS",
+    "nip": "198503242008122005",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Laboratorium dan Bank Darah"
+  },
+  {
+    "nama": "Esa Agustina, AMK",
+    "status_pegawai": "PNS",
+    "nip": "198405242008012002",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Intensif"
+  },
+  {
+    "nama": "Evi Setiawati, S.Ak.",
+    "status_pegawai": "PNS",
+    "nip": "198811152014022001",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Tim Kerja Akuntansi dan BMN"
+  },
+  {
+    "nama": "Nurodin, SE",
+    "status_pegawai": "PNS",
+    "nip": "197704132010121001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "ULP",
+    "unit_kerja": "ULP"
+  },
+  {
+    "nama": "Fitria Herawati, S.Kep., Ners",
+    "status_pegawai": "PNS",
+    "nip": "198705292010122003",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Anggrek"
+  },
+  {
+    "nama": "Rachmat Nugraha, S.kep Ners",
+    "status_pegawai": "PNS",
+    "nip": "198411052009121003",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Bedah Sentral"
+  },
+  {
+    "nama": "Ramdani, S.Kep., Ners",
+    "status_pegawai": "PNS",
+    "nip": "198406282008011006",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Teratai"
+  },
+  {
+    "nama": "Redi Satriadi Rahman Hakim, S.Kep., Ners",
+    "status_pegawai": "PNS",
+    "nip": "198412012012121001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Bedah Sentral"
+  },
+  {
+    "nama": "Hanna Fauzia, AMG",
+    "status_pegawai": "PNS",
+    "nip": "199211132018012001",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Gizi"
+  },
+  {
+    "nama": "Riki Haspani, AMK",
+    "status_pegawai": "PNS",
+    "nip": "198604092018011001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Gawat Darurat"
+  },
+  {
+    "nama": "Hanny Nurun Nissa Jamaludin, AMK",
+    "status_pegawai": "PNS",
+    "nip": "199304192015032002",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Intensif"
+  },
+  {
+    "nama": "Hardsweety Jalius, A.Md.",
+    "status_pegawai": "PNS",
+    "nip": "199510012025062008",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Tim Kerja Pelaksanaan Keuangan"
+  },
+  {
+    "nama": "Helty Damayanti, SKM",
+    "status_pegawai": "PNS",
+    "nip": "198506062008122005",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat SPP",
+    "unit_kerja": "Unit Fungsional Pendidikan"
+  },
+  {
+    "nama": "Henik Saefulmilah, SKM, MKM",
+    "status_pegawai": "PNS",
+    "nip": "198112142005012002",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat SPP",
+    "unit_kerja": "Tim Kerja Penelitian"
+  },
+  {
+    "nama": "Ian Sholihah, AMd, Far",
+    "status_pegawai": "PNS",
+    "nip": "199008272010122001",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Farmasi"
+  },
+  {
+    "nama": "Iim Rima Sugiarti, AMK",
+    "status_pegawai": "PNS",
+    "nip": "196810071995032002",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Jalan"
+  },
+  {
+    "nama": "Rizal Riswanda, AMK",
+    "status_pegawai": "PNS",
+    "nip": "199201092018011001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Intensif"
+  },
+  {
+    "nama": "Rizki Maulana, S.Kep., Ners",
+    "status_pegawai": "PNS",
+    "nip": "198511212009121003",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap"
+  },
+  {
+    "nama": "Imas Hamidah, AMK",
+    "status_pegawai": "PNS",
+    "nip": "197605032005012003",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Jalan"
+  },
+  {
+    "nama": "Robi Hamzah, SE",
+    "status_pegawai": "PNS",
+    "nip": "197706022006041002",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Tim Kerja Pelayanan Penunjang"
+  },
+  {
+    "nama": "Rony Syaipul Bahri Tambunan, Apt.",
+    "status_pegawai": "PNS",
+    "nip": "199011112019021001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Farmasi"
+  },
+  {
+    "nama": "Rudiana Sukmara, SKM., M.KKK",
+    "status_pegawai": "PNS",
+    "nip": "197306041998031006",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Instalasi Kesling dan K3RS"
+  },
+  {
+    "nama": "Rudy Siswomiharjo, A.Md",
+    "status_pegawai": "PNS",
+    "nip": "198502082009121002",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Laboratorium dan Bank Darah"
+  },
+  {
+    "nama": "Inna Nopianna, S.Kep., Ners, M.K.M",
+    "status_pegawai": "PNS",
+    "nip": "197411271998032002",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Komite Mutu",
+    "unit_kerja": "Komite Mutu"
+  },
+  {
+    "nama": "Intan Chintia Riyandi, SE",
+    "status_pegawai": "PNS",
+    "nip": "198710092015032004",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "SPI",
+    "unit_kerja": "SPI"
+  },
+  {
+    "nama": "Sansan Syahrul Muslim, AMK",
+    "status_pegawai": "PNS",
+    "nip": "198407242009121001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Mawar"
+  },
+  {
+    "nama": "Sigit Nomo Prianto, S.Kep., Ners",
+    "status_pegawai": "PNS",
+    "nip": "198805012018011001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Gawat Darurat"
+  },
+  {
+    "nama": "Intan Mutia Rizki Putri, S.Kom, MMSi",
+    "status_pegawai": "PNS",
+    "nip": "198610292015032003",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Tim Kerja Hukum dan Humas"
+  },
+  {
+    "nama": "Ipah Saripah",
+    "status_pegawai": "PNS",
+    "nip": "197503122008122001",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Laboratorium dan Bank Darah"
+  },
+  {
+    "nama": "Karina Widyowati, S.Gz",
+    "status_pegawai": "PNS",
+    "nip": "199103162014022002",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Gizi"
+  },
+  {
+    "nama": "Karnamah Indah, AMK",
+    "status_pegawai": "PNS",
+    "nip": "198006042003122004",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Teratai"
+  },
+  {
+    "nama": "Khusnawati Munasyaroh, S.Kep., Ners",
+    "status_pegawai": "PNS",
+    "nip": "199004162015032007",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Mawar"
+  },
+  {
+    "nama": "Slamet Riswandi, AMK",
+    "status_pegawai": "PNS",
+    "nip": "197312122003121001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Bedah Sentral"
+  },
+  {
+    "nama": "Lia Kartika",
+    "status_pegawai": "PNS",
+    "nip": "197404112007012020",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Instalasi Rekam Medik"
+  },
+  {
+    "nama": "Sudrajat",
+    "status_pegawai": "PNS",
+    "nip": "197602092009121001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Kacapiring"
+  },
+  {
+    "nama": "Suhardiman",
+    "status_pegawai": "PNS",
+    "nip": "196904012008121002",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Kacapiring"
+  },
+  {
+    "nama": "Suhendra Yan Oktaviana, AMK",
+    "status_pegawai": "PNS",
+    "nip": "198810102012121001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Anggrek Melati"
+  },
+  {
+    "nama": "Suheri, SKM",
+    "status_pegawai": "PNS",
+    "nip": "197912202014051001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Laboratorium dan Bank Darah"
+  },
+  {
+    "nama": "Lia Marlia, AMK",
+    "status_pegawai": "PNS",
+    "nip": "197812252005012002",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Jalan"
+  },
+  {
+    "nama": "Sumarno, S.Kep",
+    "status_pegawai": "PNS",
+    "nip": "197605132000031001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Tim Kerja Pelayanan Keperawatan"
+  },
+  {
+    "nama": "Lina Pelanni, AMK",
+    "status_pegawai": "PNS",
+    "nip": "197912062005012001",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Bedah Sentral"
+  },
+  {
+    "nama": "Sutisna",
+    "status_pegawai": "PNS",
+    "nip": "197509052008121002",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Instalasi Sterilisasi dan Binatu"
+  },
+  {
+    "nama": "Taufiq Ramdhani, AMK",
+    "status_pegawai": "PNS",
+    "nip": "198805072012121001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Bedah Sentral"
+  },
+  {
+    "nama": "Lukluk Utaminingsih, S.Si, Apt, M.Farm",
+    "status_pegawai": "PNS",
+    "nip": "196911232005012001",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Farmasi"
+  },
+  {
+    "nama": "Tirta Pratama, S.Kom",
+    "status_pegawai": "PNS",
+    "nip": "198703072009121001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Instalasi SIMRS"
+  },
+  {
+    "nama": "Tony Dwi Prasetyo, Ners",
+    "status_pegawai": "PNS",
+    "nip": "199106132018011002",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Kacapiring"
+  },
+  {
+    "nama": "Toto Mustaqim, AMK",
+    "status_pegawai": "PNS",
+    "nip": "197511202003121001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Mawar"
+  },
+  {
+    "nama": "Marmunah, AMK",
+    "status_pegawai": "PNS",
+    "nip": "197403281997032001",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Teratai"
+  },
+  {
+    "nama": "Maya Haryanti, A.Md.Kes",
+    "status_pegawai": "PNS",
+    "nip": "199205152014022001",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Laboratorium dan Bank Darah"
+  },
+  {
+    "nama": "Melinda Febrianti, A.Md.AK",
+    "status_pegawai": "PNS",
+    "nip": "199602022019022001",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Laboratorium dan Bank Darah"
+  },
+  {
+    "nama": "Mira Novita, AMK",
+    "status_pegawai": "PNS",
+    "nip": "196811111991032001",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Anggrek Melati"
+  },
+  {
+    "nama": "Ujang Wahyudin",
+    "status_pegawai": "PNS",
+    "nip": "197206262006041017",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Instalasi Verifikasi dan Penjaminan Pasien"
+  },
+  {
+    "nama": "Wendi Krisnadi Bunjali",
+    "status_pegawai": "PNS",
+    "nip": "197801202000031002",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Farmasi"
+  },
+  {
+    "nama": "Wendy Indra Permana, AMK",
+    "status_pegawai": "PNS",
+    "nip": "198803192020121005",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Intensif"
+  },
+  {
+    "nama": "Nadia Natasya, A.Md.Kes",
+    "status_pegawai": "PNS",
+    "nip": "199809292025062015",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Laboratorium dan Bank Darah"
+  },
+  {
+    "nama": "Yahya, S.Kep., Ners",
+    "status_pegawai": "PNS",
+    "nip": "197003161993031002",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Komite Keperawatan",
+    "unit_kerja": "Komite Keperawatan"
+  },
+  {
+    "nama": "Yana Sukmawan, ST",
+    "status_pegawai": "PNS",
+    "nip": "197911022008011009",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Instalasi SIMRS"
+  },
+  {
+    "nama": "Yanto Rusyanto, S.Kep., Ners",
+    "status_pegawai": "PNS",
+    "nip": "197711102005011001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Gawat Darurat"
+  },
+  {
+    "nama": "Yudi Suryadi",
+    "status_pegawai": "PNS",
+    "nip": "197104052007011041",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Radiologi"
+  },
+  {
+    "nama": "Neni Nur Aeni, AMd. Far",
+    "status_pegawai": "PNS",
+    "nip": "198608052008012001",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Farmasi"
+  },
+  {
+    "nama": "Yusuf Wahyudin, AMK",
+    "status_pegawai": "PNS",
+    "nip": "198103062008121001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Bedah Sentral"
+  },
+  {
+    "nama": "Nida Lizawidar Pratami, AMK",
+    "status_pegawai": "PNS",
+    "nip": "199006182012122002",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Mawar"
+  },
+  {
+    "nama": "Zaenuri, SST",
+    "status_pegawai": "PNS",
+    "nip": "197912182008011007",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Radiologi"
+  },
+  {
+    "nama": "Zainal Azhar, S.Kep., Ners",
+    "status_pegawai": "PNS",
+    "nip": "198911172018011001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Anggrek Melati"
+  },
+  {
+    "nama": "Nina Kusmayanti",
+    "status_pegawai": "PNS",
+    "nip": "197307112007012016",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Instalasi Rekam Medik"
+  },
+  {
+    "nama": "Novalia Lestari, AMK",
+    "status_pegawai": "PNS",
+    "nip": "198311112010122001",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Tanjung"
+  },
+  {
+    "nama": "Novwina Herisa, A.Md.Kep",
+    "status_pegawai": "PNS",
+    "nip": "198311302010122001",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Bedah Sentral"
+  },
+  {
+    "nama": "dr. Iqbal Muhammad, Sp. P",
+    "status_pegawai": "PNS",
+    "nip": "199404232025061002",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Dokter",
+    "golongan": "Dokter Spesialis",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Departemen Respiratori"
+  },
+  {
+    "nama": "Nunick Febri Anticha, S.Kep, Ners",
+    "status_pegawai": "PNS",
+    "nip": "198902202010122003",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Teratai"
+  },
+  {
+    "nama": "Nur Hidayati, AMd. Far",
+    "status_pegawai": "PNS",
+    "nip": "198104022009122001",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Farmasi"
+  },
+  {
+    "nama": "Muhammad Dafiq Fauzi, A.Md.Rad.",
+    "status_pegawai": "PNS",
+    "nip": "199612112025061003",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Radiologi"
+  },
+  {
+    "nama": "Nurjanah",
+    "status_pegawai": "PNS",
+    "nip": "197308232014052001",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Farmasi"
+  },
+  {
+    "nama": "Nury Noviyanti, AMK",
+    "status_pegawai": "PNS",
+    "nip": "198705072012122001",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Anggrek Melati"
+  },
+  {
+    "nama": "Ova Ermisa Indah Lestari, A.Md.Kep",
+    "status_pegawai": "PNS",
+    "nip": "198712082010122002",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Tanjung"
+  },
+  {
+    "nama": "Paridah, AMd.Far",
+    "status_pegawai": "PNS",
+    "nip": "199202032014022003",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Farmasi"
+  },
+  {
+    "nama": "Popy Arifiawati, AMK",
+    "status_pegawai": "PNS",
+    "nip": "198012192005012003",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Teratai"
+  },
+  {
+    "nama": "Purwanti",
+    "status_pegawai": "PNS",
+    "nip": "197312272014122003",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Farmasi"
+  },
+  {
+    "nama": "R. Emiria Ratna Ningrum,S.TP",
+    "status_pegawai": "PNS",
+    "nip": "198007152009122001",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Laboratorium dan Bank Darah"
+  },
+  {
+    "nama": "Rahayu Cahyaningsih, AMK",
+    "status_pegawai": "PNS",
+    "nip": "198712242009122001",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Anggrek Melati"
+  },
+  {
+    "nama": "Rahma Gusti Amelia. S, A.Md. Farm.",
+    "status_pegawai": "PNS",
+    "nip": "200108112025062012",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Farmasi"
+  },
+  {
+    "nama": "Renny Fitriyanti Agustin, AMK",
+    "status_pegawai": "PNS",
+    "nip": "198208182010122002",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Jalan"
+  },
+  {
+    "nama": "Renny Nurwidiani, AMK",
+    "status_pegawai": "PNS",
+    "nip": "198602242008122001",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Kacapiring"
+  },
+  {
+    "nama": "Rina Rahmawati, AMK",
+    "status_pegawai": "PNS",
+    "nip": "198901022020122004",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Intensif"
+  },
+  {
+    "nama": "Rina Tiana Nur Indah S, AMK",
+    "status_pegawai": "PNS",
+    "nip": "197803152005012006",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Teratai"
+  },
+  {
+    "nama": "Rini Andriyani, S.Sos",
+    "status_pegawai": "PNS",
+    "nip": "197008021998032002",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Tim Kerja PPAE"
+  },
+  {
+    "nama": "Risma Sandra Parahita, A.Md. Ak",
+    "status_pegawai": "PNS",
+    "nip": "198709012014022002",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Laboratorium dan Bank Darah"
+  },
+  {
+    "nama": "Rissy Atika Sari, A.Md. Ak",
+    "status_pegawai": "PNS",
+    "nip": "199011182018012001",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Laboratorium dan Bank Darah"
+  },
+  {
+    "nama": "Rita Ernawati",
+    "status_pegawai": "PNS",
+    "nip": "197903252014052001",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Tim Kerja Pelaksanaan Keuangan"
+  },
+  {
+    "nama": "Rita Kartikawati, Apt",
+    "status_pegawai": "PNS",
+    "nip": "197604282009122001",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Farmasi"
+  },
+  {
+    "nama": "Riza Arsyta",
+    "status_pegawai": "PNS",
+    "nip": "199412082020122004",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Gizi"
+  },
+  {
+    "nama": "Rizki Rahmayanti, A.Md.Fis",
+    "status_pegawai": "PNS",
+    "nip": "199101232015032003",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rehabilitasi Medik"
+  },
+  {
+    "nama": "Rizqi Puji Lestari, S.Kep., Ners",
+    "status_pegawai": "PNS",
+    "nip": "198812272015032005",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Kacapiring"
+  },
+  {
+    "nama": "Ruri Prabuwati, Amd. Far",
+    "status_pegawai": "PNS",
+    "nip": "198301042009122001",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Farmasi"
+  },
+  {
+    "nama": "Sainah, AMK",
+    "status_pegawai": "PNS",
+    "nip": "197006041991032002",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Anggrek Melati"
+  },
+  {
+    "nama": "Sally, S.Kep., Ners",
+    "status_pegawai": "PNS",
+    "nip": "198401102008122001",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Mawar"
+  },
+  {
+    "nama": "Silvy Anggareni, A.Md. Ak",
+    "status_pegawai": "PNS",
+    "nip": "198709102014022003",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Laboratorium dan Bank Darah"
+  },
+  {
+    "nama": "Sinta Rahayu, AMK",
+    "status_pegawai": "PNS",
+    "nip": "198608232008012002",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Jalan"
+  },
+  {
+    "nama": "Siska Timorriyantini, S.Kep, Ners",
+    "status_pegawai": "PNS",
+    "nip": "198503262008012001",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Mawar"
+  },
+  {
+    "nama": "Siti Meliana, S.Ak",
+    "status_pegawai": "PNS",
+    "nip": "199209262022032001",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Tim Kerja Akuntansi dan BMN"
+  },
+  {
+    "nama": "Siti Nurazizah, AMK",
+    "status_pegawai": "PNS",
+    "nip": "197812122008122002",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Teratai"
+  },
+  {
+    "nama": "Siti Sulastri, S.ST",
+    "status_pegawai": "PNS",
+    "nip": "197001201993032002",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "ULP",
+    "unit_kerja": "ULP"
+  },
+  {
+    "nama": "Sitti Nurhalisah, A.Md. Farm.",
+    "status_pegawai": "PNS",
+    "nip": "200012062025062005",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Farmasi"
+  },
+  {
+    "nama": "Sopi Yani Kania, AMK",
+    "status_pegawai": "PNS",
+    "nip": "198610262010122003",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Intensif"
+  },
+  {
+    "nama": "Sri Mulyanah, S.Kep., Ners",
+    "status_pegawai": "PNS",
+    "nip": "198502092008122003",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Gawat Darurat"
+  },
+  {
+    "nama": "Sri Nur Damayanti, S.Kep., Ners",
+    "status_pegawai": "PNS",
+    "nip": "198511042010122001",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Intensif"
+  },
+  {
+    "nama": "Sulis Peristiwa Asmawatiningsih",
+    "status_pegawai": "PNS",
+    "nip": "197005142014052001",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Farmasi"
+  },
+  {
+    "nama": "Susan Susanti, AMK",
+    "status_pegawai": "PNS",
+    "nip": "197705272005012003",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Intensif"
+  },
+  {
+    "nama": "Susi Afriani, AMK",
+    "status_pegawai": "PNS",
+    "nip": "197604291997032001",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Jalan"
+  },
+  {
+    "nama": "Tintin Agustini, SE",
+    "status_pegawai": "PNS",
+    "nip": "197107282006042005",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Tim Kerja Pelaksanaan Keuangan"
+  },
+  {
+    "nama": "Tri Wahyuni, AMK",
+    "status_pegawai": "PNS",
+    "nip": "198712312010122001",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Intensif"
+  },
+  {
+    "nama": "Try Oktasari, Amd. Far",
+    "status_pegawai": "PNS",
+    "nip": "198210032008122003",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Farmasi"
+  },
+  {
+    "nama": "Tulus Sihwinedar, A.Md.Rad",
+    "status_pegawai": "PNS",
+    "nip": "199610222020122011",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Radiologi"
+  },
+  {
+    "nama": "Tyas Handayani Safari, AMK",
+    "status_pegawai": "PNS",
+    "nip": "198610202010122003",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Mawar"
+  },
+  {
+    "nama": "Umi Murtiati",
+    "status_pegawai": "PNS",
+    "nip": "197111161992032002",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Gizi"
+  },
+  {
+    "nama": "Wida Nuraeni, A.Md",
+    "status_pegawai": "PNS",
+    "nip": "198511152008122002",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Laboratorium dan Bank Darah"
+  },
+  {
+    "nama": "Winda Nuraeni, AMK",
+    "status_pegawai": "PNS",
+    "nip": "198102072010122001",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Anggrek Melati"
+  },
+  {
+    "nama": "Winda Nurfadilah, SE",
+    "status_pegawai": "PNS",
+    "nip": "199111172014022001",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Tim Kerja Pelaksanaan Keuangan"
+  },
+  {
+    "nama": "Yani Suryani, S.Kep., Ners",
+    "status_pegawai": "PNS",
+    "nip": "198101252006042011",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Komite PPI & PPRA",
+    "unit_kerja": "Komite PPI dan PPRA"
+  },
+  {
+    "nama": "Yeni Suparni, S. Farm",
+    "status_pegawai": "PNS",
+    "nip": "198001182006042002",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Farmasi"
+  },
+  {
+    "nama": "Yohana Novitasari Sutrisno, Ners",
+    "status_pegawai": "PNS",
+    "nip": "199701272022032003",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Mawar"
+  },
+  {
+    "nama": "Yulianti, SST., M.Kes",
+    "status_pegawai": "PNS",
+    "nip": "198301122008122003",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Bidan",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Gawat Darurat"
+  },
+  {
+    "nama": "Yuliyani, S. Kep, MKM",
+    "status_pegawai": "PNS",
+    "nip": "198107182005012005",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat SPP",
+    "unit_kerja": "Unit Fungsional Pendidikan"
+  },
+  {
+    "nama": "Yuni Widyastuti, Amd. Far",
+    "status_pegawai": "PNS",
+    "nip": "197906022009122002",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Farmasi"
+  },
+  {
+    "nama": "Yuyun Yudaningsih, SST",
+    "status_pegawai": "PNS",
+    "nip": "198202072005012006",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Bidan",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Gawat Darurat"
+  },
+  {
+    "nama": "Zahwa Laila Primadesi, S.Tr.RMIK",
+    "status_pegawai": "PNS",
+    "nip": "200012172025062005",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Instalasi Rekam Medik"
+  },
+  {
+    "nama": "Astri Kurnia",
+    "status_pegawai": "PPPK",
+    "nip": "199602052024212026",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Farmasi"
+  },
+  {
+    "nama": "Ayi Sayidah, AMK",
+    "status_pegawai": "PPPK",
+    "nip": "199910052024212022",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Kacapiring"
+  },
+  {
+    "nama": "Bilqis Maghfiroh",
+    "status_pegawai": "PPPK",
+    "nip": "199711072024212025",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Laboratorium dan Bank Darah"
+  },
+  {
+    "nama": "Delvi Susanti",
+    "status_pegawai": "PPPK",
+    "nip": "199810012025212028",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Tim Kerja TURT"
+  },
+  {
+    "nama": "Dessy Mulyani Sholehaty, S.Kep",
+    "status_pegawai": "PPPK",
+    "nip": "198712012023212002",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Gawat Darurat"
+  },
+  {
+    "nama": "Devi Oktaviani, AMK",
+    "status_pegawai": "PPPK",
+    "nip": "199710302025212039",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Lily"
+  },
+  {
+    "nama": "Dewi Rahayu, A.Md",
+    "status_pegawai": "PPPK",
+    "nip": "198410142023212032",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat SPP",
+    "unit_kerja": "Tim Kerja OSDM"
+  },
+  {
+    "nama": "Diajeng Stefany Christianti, AMK",
+    "status_pegawai": "PPPK",
+    "nip": "199009042024212035",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Bedah Sentral"
+  },
+  {
+    "nama": "Dina Permata Sari Dantji, AMK",
+    "status_pegawai": "PPPK",
+    "nip": "199604192023212009",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Mawar"
+  },
+  {
+    "nama": "dr. Ai Sartika",
+    "status_pegawai": "PPPK",
+    "nip": "198902282023212004",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Dokter",
+    "golongan": "Dokter Umum",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Departemen Medik"
+  },
+  {
+    "nama": "dr. Assifa Ridzki Najiah",
+    "status_pegawai": "PPPK",
+    "nip": "199510082024212025",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Dokter",
+    "golongan": "Dokter Umum",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Departemen Medik"
+  },
+  {
+    "nama": "dr. Jaswin Dhillon, Sp. P (K)",
+    "status_pegawai": "PPPK",
+    "nip": "199004122023212008",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Dokter",
+    "golongan": "Dokter Sub Spesialis",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Departemen Respiratori"
+  },
+  {
+    "nama": "Eah Nurapipah, S.S.T.Ars",
+    "status_pegawai": "PPPK",
+    "nip": "197911092025212017",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Tim Kerja Pelaksanaan Keuangan"
+  },
+  {
+    "nama": "Eka Novita Andriyani, S.S.T.Ars",
+    "status_pegawai": "PPPK",
+    "nip": "198608282025212048",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Instalasi Verifikasi dan Penjaminan Pasien"
+  },
+  {
+    "nama": "Eka Nuryanah, S.Kep., Ners",
+    "status_pegawai": "PPPK",
+    "nip": "199503202023212005",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Gawat Darurat"
+  },
+  {
+    "nama": "Feby Fitri Amaly, S.Kep., Ners",
+    "status_pegawai": "PPPK",
+    "nip": "199302162024212037",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Mawar"
+  },
+  {
+    "nama": "Feybe Lidia Ladiwa",
+    "status_pegawai": "PPPK",
+    "nip": "198112212025212024",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Farmasi"
+  },
+  {
+    "nama": "Fika Andriani, S.Kep., Ners",
+    "status_pegawai": "PPPK",
+    "nip": "199412142023212005",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Intensif"
+  },
+  {
+    "nama": "Halimah Tusadiyah, AMK",
+    "status_pegawai": "PPPK",
+    "nip": "199712122025212070",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Teratai"
+  },
+  {
+    "nama": "Herawati, AMK",
+    "status_pegawai": "PPPK",
+    "nip": "197705292025212012",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Kacapiring"
+  },
+  {
+    "nama": "Herli Afrianti, S.Kep., Ners",
+    "status_pegawai": "PPPK",
+    "nip": "199110142024212024",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Intensif"
+  },
+  {
+    "nama": "Ika Suhariningsih, S. Kep, Ners",
+    "status_pegawai": "PPPK",
+    "nip": "198608092023212007",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Anggrek Melati"
+  },
+  {
+    "nama": "Ina Patmawati, AMK",
+    "status_pegawai": "PPPK",
+    "nip": "198805252023212003",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Teratai"
+  },
+  {
+    "nama": "Ira Haerida, AMK",
+    "status_pegawai": "PPPK",
+    "nip": "198205052023212002",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Mawar"
+  },
+  {
+    "nama": "Leni Fathia Rahma, Amd Kes",
+    "status_pegawai": "PPPK",
+    "nip": "199902262025212016",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Laboratorium dan Bank Darah"
+  },
+  {
+    "nama": "Lia Amelia",
+    "status_pegawai": "PPPK",
+    "nip": "198707072023212010",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Instalasi Rekam Medik"
+  },
+  {
+    "nama": "Mutiara Nurhaedah, A.Md. Kep",
+    "status_pegawai": "PPPK",
+    "nip": "199701242023212005",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Intensif"
+  },
+  {
+    "nama": "Nabella Bethari Kusumawardani, S.Si",
+    "status_pegawai": "PPPK",
+    "nip": "199507272023212005",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Radiologi"
+  },
+  {
+    "nama": "Nabilla Novarta Muharom, A.Md.Kes",
+    "status_pegawai": "PPPK",
+    "nip": "199911132025212023",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Laboratorium dan Bank Darah"
+  },
+  {
+    "nama": "Nani Herlina, S.Kep., Ners",
+    "status_pegawai": "PPPK",
+    "nip": "198603102023212004",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Tanjung"
+  },
+  {
+    "nama": "Neneng Supriyatni, Str.Kes",
+    "status_pegawai": "PPPK",
+    "nip": "199611142024212030",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Radiologi"
+  },
+  {
+    "nama": "Nia Kurnia, AMK",
+    "status_pegawai": "PPPK",
+    "nip": "198308172024212015",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Mawar"
+  },
+  {
+    "nama": "Nopiani Nursita, A.Md",
+    "status_pegawai": "PPPK",
+    "nip": "198011122023212003",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Instalasi Rekam Medik"
+  },
+  {
+    "nama": "Nur Khasanah, S.Kep, Ners",
+    "status_pegawai": "PPPK",
+    "nip": "199201022023212012",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Kacapiring"
+  },
+  {
+    "nama": "Nurdiana, S.Kep., Ners",
+    "status_pegawai": "PPPK",
+    "nip": "199406122023212008",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Mawar"
+  },
+  {
+    "nama": "Nurmaisa Fitri, AMK",
+    "status_pegawai": "PPPK",
+    "nip": "198805072023212006",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Intensif"
+  },
+  {
+    "nama": "Abdul Kadir",
+    "status_pegawai": "PPPK",
+    "nip": "198303212025211046",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Instalasi Rekam Medik"
+  },
+  {
+    "nama": "Aceng Witarsa, ST",
+    "status_pegawai": "PPPK",
+    "nip": "197802172025211018",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Instalasi PSRS"
+  },
+  {
+    "nama": "Adam Syair, S.Kom",
+    "status_pegawai": "PPPK",
+    "nip": "198510112023211021",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Instalasi SIMRS"
+  },
+  {
+    "nama": "Ade Irawan, AMK",
+    "status_pegawai": "PPPK",
+    "nip": "198205292023211001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Kacapiring"
+  },
+  {
+    "nama": "Adi Prihartono, AMG",
+    "status_pegawai": "PPPK",
+    "nip": "197703072023211001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Gizi"
+  },
+  {
+    "nama": "Agus Rianto, Amd. Rad",
+    "status_pegawai": "PPPK",
+    "nip": "198901282023211001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Radiologi"
+  },
+  {
+    "nama": "Ajat Sudrajat, A.Md. AK",
+    "status_pegawai": "PPPK",
+    "nip": "199201142023211002",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Laboratorium dan Bank Darah"
+  },
+  {
+    "nama": "Alan Pardillah, S.Kep., Ners",
+    "status_pegawai": "PPPK",
+    "nip": "199510132024211013",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Kacapiring"
+  },
+  {
+    "nama": "Aldiansyah Maulana",
+    "status_pegawai": "PPPK",
+    "nip": "198102102025211043",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Gawat Darurat"
+  },
+  {
+    "nama": "Alwi Firdaus Khoirurizqi, A. Md. Kep",
+    "status_pegawai": "PPPK",
+    "nip": "199908102025211022",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Teratai"
+  },
+  {
+    "nama": "Andi",
+    "status_pegawai": "PPPK",
+    "nip": "198202252025211042",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Instalasi PSRS"
+  },
+  {
+    "nama": "Andi Alfiah Rahmat",
+    "status_pegawai": "PPPK",
+    "nip": "198703162025211046",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Instalasi Verifikasi dan Penjaminan Pasien"
+  },
+  {
+    "nama": "Andika Restu Anugrah, A.Md.Kep",
+    "status_pegawai": "PPPK",
+    "nip": "199310312023211002",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Anggrek Melati"
+  },
+  {
+    "nama": "Andri Mulyadi, A.Md. AK",
+    "status_pegawai": "PPPK",
+    "nip": "199401312023211002",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Laboratorium dan Bank Darah"
+  },
+  {
+    "nama": "Andri Rahman Hakim, S.Kom",
+    "status_pegawai": "PPPK",
+    "nip": "197805152025211044",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Instalasi Promosi Kesehatan dan Pemasaran"
+  },
+  {
+    "nama": "Andri Suhardi, S.A.P",
+    "status_pegawai": "PPPK",
+    "nip": "198005282023211008",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat SPP",
+    "unit_kerja": "Tim Kerja OSDM"
+  },
+  {
+    "nama": "Aria Sukma Senapati, A.Md.Kep",
+    "status_pegawai": "PPPK",
+    "nip": "199303292025211041",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Anggrek Melati"
+  },
+  {
+    "nama": "Aris Septiawan Prakasa, AMK",
+    "status_pegawai": "PPPK",
+    "nip": "198709192023211003",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Lily"
+  },
+  {
+    "nama": "Asep Ahmad Subur Nugraha, AMK",
+    "status_pegawai": "PPPK",
+    "nip": "199112022024211015",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Gawat Darurat"
+  },
+  {
+    "nama": "Asep Nugraha, S.S.T.Ars",
+    "status_pegawai": "PPPK",
+    "nip": "197812152025211032",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Gawat Darurat"
+  },
+  {
+    "nama": "Nurul Siti Atiyah, S.Kep., Ners",
+    "status_pegawai": "PPPK",
+    "nip": "199709012023212003",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Kacapiring"
+  },
+  {
+    "nama": "Bachrur Rivan Arozi",
+    "status_pegawai": "PPPK",
+    "nip": "199508312023211001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Tanjung"
+  },
+  {
+    "nama": "Bayu Pratama, S.M",
+    "status_pegawai": "PPPK",
+    "nip": "199105192025211053",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Tim Kerja Diklat"
+  },
+  {
+    "nama": "Bayu Runi Juliantoro, S.Ak",
+    "status_pegawai": "PPPK",
+    "nip": "198707302025211044",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Tim Kerja Pelaksanaan Keuangan"
+  },
+  {
+    "nama": "Budi Aswin, S.A.P",
+    "status_pegawai": "PPPK",
+    "nip": "198805112023211014",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat SPP",
+    "unit_kerja": "Tim Kerja OSDM"
+  },
+  {
+    "nama": "Cecep Abdurahman, S.Kep., Ners",
+    "status_pegawai": "PPPK",
+    "nip": "198708072023211001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Mawar"
+  },
+  {
+    "nama": "Deden Herdiana, S.Kep., Ners",
+    "status_pegawai": "PPPK",
+    "nip": "198702162024211014",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Tanjung"
+  },
+  {
+    "nama": "Deni Nur, SH",
+    "status_pegawai": "PPPK",
+    "nip": "197903052025211038",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat SPP",
+    "unit_kerja": "Tim Kerja OSDM"
+  },
+  {
+    "nama": "Deni Nurahmad",
+    "status_pegawai": "PPPK",
+    "nip": "198910132025211050",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Jalan"
+  },
+  {
+    "nama": "Deni Supriatna, S.AP",
+    "status_pegawai": "PPPK",
+    "nip": "198703252025211049",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Tim Kerja Akuntansi dan BMN"
+  },
+  {
+    "nama": "Deni Susanto, AMK",
+    "status_pegawai": "PPPK",
+    "nip": "198412292022211001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Intensif"
+  },
+  {
+    "nama": "Dinar Mardiana, A.Md.Pjk",
+    "status_pegawai": "PPPK",
+    "nip": "198005082025211040",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Tim Kerja Akuntansi dan BMN"
+  },
+  {
+    "nama": "R. Fina Gartina",
+    "status_pegawai": "PPPK",
+    "nip": "198203072023212003",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Instalasi Rekam Medik"
+  },
+  {
+    "nama": "R. Refa Mardini, S.Far",
+    "status_pegawai": "PPPK",
+    "nip": "198403242025212041",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Farmasi"
+  },
+  {
+    "nama": "dr. Muhammad Rabani Rivai",
+    "status_pegawai": "PPPK",
+    "nip": "198909102023211004",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Dokter",
+    "golongan": "Dokter Umum",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Departemen Medik"
+  },
+  {
+    "nama": "Dwi Yana Prakoso, AMK",
+    "status_pegawai": "PPPK",
+    "nip": "199707192024211012",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Kacapiring"
+  },
+  {
+    "nama": "Elan Jaelani, SE",
+    "status_pegawai": "PPPK",
+    "nip": "198804202023211021",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Tim Kerja PPAE"
+  },
+  {
+    "nama": "Rahma Kurnia Fidianti, A.Md. AK",
+    "status_pegawai": "PPPK",
+    "nip": "198003262023212002",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Laboratorium dan Bank Darah"
+  },
+  {
+    "nama": "Enjo Sutarjo, S.M",
+    "status_pegawai": "PPPK",
+    "nip": "198001012025211099",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Instalasi Rekam Medik"
+  },
+  {
+    "nama": "Fajri, A.Md",
+    "status_pegawai": "PPPK",
+    "nip": "199504282025211036",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Tim Kerja Pelaksanaan Keuangan"
+  },
+  {
+    "nama": "Farakiansyah Budi Prasetia, A.Md. Kep",
+    "status_pegawai": "PPPK",
+    "nip": "198701022024211010",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Gawat Darurat"
+  },
+  {
+    "nama": "Farid Husaeni, S. Kep, Ners",
+    "status_pegawai": "PPPK",
+    "nip": "199606272023211002",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Kacapiring"
+  },
+  {
+    "nama": "Febbi Sumas Naksyabandi, S.Kep., Ners",
+    "status_pegawai": "PPPK",
+    "nip": "199202162024211010",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Gawat Darurat"
+  },
+  {
+    "nama": "Retno Wulandari, A.Md",
+    "status_pegawai": "PPPK",
+    "nip": "198808112025212047",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Tim Kerja Akuntansi dan BMN"
+  },
+  {
+    "nama": "Firmansyah Hidayatulloh, AMK",
+    "status_pegawai": "PPPK",
+    "nip": "198801232023211001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Gawat Darurat"
+  },
+  {
+    "nama": "Firmansyah, A.Md",
+    "status_pegawai": "PPPK",
+    "nip": "197802252025211019",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "FKTP"
+  },
+  {
+    "nama": "Fitrian Panji Ginanjar, AMK",
+    "status_pegawai": "PPPK",
+    "nip": "198905072023211004",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Mawar"
+  },
+  {
+    "nama": "Ganjar Permana, S.Kep., Ners",
+    "status_pegawai": "PPPK",
+    "nip": "198202062023211002",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Tanjung"
+  },
+  {
+    "nama": "Rindi Grestiani, AMK",
+    "status_pegawai": "PPPK",
+    "nip": "199008132023212003",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Jalan"
+  },
+  {
+    "nama": "Hilman Mulyana, AMK",
+    "status_pegawai": "PPPK",
+    "nip": "199102042023211003",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Kacapiring"
+  },
+  {
+    "nama": "Igus Siswanto",
+    "status_pegawai": "PPPK",
+    "nip": "198408312025211041",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Tim Kerja Pelayanan Medik"
+  },
+  {
+    "nama": "Ikbal Khorizal, A.Md. RMIK",
+    "status_pegawai": "PPPK",
+    "nip": "198909082023211001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Instalasi Rekam Medik"
+  },
+  {
+    "nama": "Iman Firdaus, A.Md",
+    "status_pegawai": "PPPK",
+    "nip": "199201212023211015",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Instalasi SIMRS"
+  },
+  {
+    "nama": "Rini Stevani, SE",
+    "status_pegawai": "PPPK",
+    "nip": "198212142025212030",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Instalasi Verifikasi dan Penjaminan Pasien"
+  },
+  {
+    "nama": "Rini Sunardi, S.Tr.Kes",
+    "status_pegawai": "PPPK",
+    "nip": "199109152023212004",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Laboratorium dan Bank Darah"
+  },
+  {
+    "nama": "Jenal Arifin",
+    "status_pegawai": "PPPK",
+    "nip": "197907052025211059",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Tim Kerja TURT"
+  },
+  {
+    "nama": "Jiwata Eka Yuwana",
+    "status_pegawai": "PPPK",
+    "nip": "198810112025211047",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Tim Kerja Pelaksanaan Keuangan"
+  },
+  {
+    "nama": "Junaedi",
+    "status_pegawai": "PPPK",
+    "nip": "197706102025211047",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Tim Kerja TURT"
+  },
+  {
+    "nama": "Riska Purwasih, S.Kep., Ners",
+    "status_pegawai": "PPPK",
+    "nip": "199408082023212006",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Anggrek Melati"
+  },
+  {
+    "nama": "M. Asep Suryadi",
+    "status_pegawai": "PPPK",
+    "nip": "198802212025211036",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Tim Kerja Akuntansi dan BMN"
+  },
+  {
+    "nama": "Mansyur",
+    "status_pegawai": "PPPK",
+    "nip": "198401302025211018",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Mawar"
+  },
+  {
+    "nama": "Maulana Yusup S.",
+    "status_pegawai": "PPPK",
+    "nip": "198612072025211035",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Farmasi"
+  },
+  {
+    "nama": "Mochamad Fadly Aditya Ari Saputra, S.Kep., Ners",
+    "status_pegawai": "PPPK",
+    "nip": "199712302024211015",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Tanjung"
+  },
+  {
+    "nama": "Muhamad Faisal Tanjung, A.Md.Kes",
+    "status_pegawai": "PPPK",
+    "nip": "199908182025211028",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Laboratorium dan Bank Darah"
+  },
+  {
+    "nama": "Muhamad Indra Faisal, Apt",
+    "status_pegawai": "PPPK",
+    "nip": "199108302023211003",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Farmasi"
+  },
+  {
+    "nama": "Muhamad Irfan Rasyid, S.Kep., Ners",
+    "status_pegawai": "PPPK",
+    "nip": "199512072023211003",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Gawat Darurat"
+  },
+  {
+    "nama": "Muhamad Sahid Hudanto, AMK",
+    "status_pegawai": "PPPK",
+    "nip": "198907232023211002",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Bedah Sentral"
+  },
+  {
+    "nama": "Muhamadinika Fauzi, AMK",
+    "status_pegawai": "PPPK",
+    "nip": "198807192023211004",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Gawat Darurat"
+  },
+  {
+    "nama": "Muhammad Arifullah, A.Md",
+    "status_pegawai": "PPPK",
+    "nip": "197702032025211021",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Tim Kerja Pelaksanaan Keuangan"
+  },
+  {
+    "nama": "Muhammad Fajar Ripaldi",
+    "status_pegawai": "PPPK",
+    "nip": "199910062024211006",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Laboratorium dan Bank Darah"
+  },
+  {
+    "nama": "Muhammad Rizky, S.Kom",
+    "status_pegawai": "PPPK",
+    "nip": "199507152023211009",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Instalasi SIMRS"
+  },
+  {
+    "nama": "Muhtar",
+    "status_pegawai": "PPPK",
+    "nip": "197605202025211033",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Tim Kerja TURT"
+  },
+  {
+    "nama": "Mulyana Hadianata",
+    "status_pegawai": "PPPK",
+    "nip": "198106222025211030",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Instalasi Rekam Medik"
+  },
+  {
+    "nama": "Nunu Mulyanuddin, S.Kep., Ners",
+    "status_pegawai": "PPPK",
+    "nip": "199101142023211004",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Gawat Darurat"
+  },
+  {
+    "nama": "Rovita Ayuningrum, AMK",
+    "status_pegawai": "PPPK",
+    "nip": "198912272023212011",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Lily"
+  },
+  {
+    "nama": "Pardiyanto, S.Farm",
+    "status_pegawai": "PPPK",
+    "nip": "198212142023211001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Farmasi"
+  },
+  {
+    "nama": "Purjan",
+    "status_pegawai": "PPPK",
+    "nip": "198307102025211057",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Gawat Darurat"
+  },
+  {
+    "nama": "R. Mukti Widaranto Sumohandoyo, SE",
+    "status_pegawai": "PPPK",
+    "nip": "198711042025211048",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Tim Kerja Pelaksanaan Keuangan"
+  },
+  {
+    "nama": "R. Widia Mahendra Janu",
+    "status_pegawai": "PPPK",
+    "nip": "198205102025211080",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Tim Kerja Pelaksanaan Keuangan"
+  },
+  {
+    "nama": "Serli Inriani Reda, Amd. An",
+    "status_pegawai": "PPPK",
+    "nip": "199809042024212026",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Bedah Sentral"
+  },
+  {
+    "nama": "Resdiana, S.Kom",
+    "status_pegawai": "PPPK",
+    "nip": "198705092023211022",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat SPP",
+    "unit_kerja": "Tim Kerja OSDM"
+  },
+  {
+    "nama": "Riky",
+    "status_pegawai": "PPPK",
+    "nip": "198805132025211054",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Instalasi Rekam Medik"
+  },
+  {
+    "nama": "Shely Pransiska, AMK",
+    "status_pegawai": "PPPK",
+    "nip": "199301302023212006",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Tanjung"
+  },
+  {
+    "nama": "Shintya Minanda Putri, A.Md. Kep",
+    "status_pegawai": "PPPK",
+    "nip": "199607182023212006",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Mawar"
+  },
+  {
+    "nama": "Rizal M Firdaus, A.Md.Kep",
+    "status_pegawai": "PPPK",
+    "nip": "199605092023211002",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Teratai"
+  },
+  {
+    "nama": "Rizki Maulana Sidiq",
+    "status_pegawai": "PPPK",
+    "nip": "199808102024211012",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Laboratorium dan Bank Darah"
+  },
+  {
+    "nama": "Rudi Fadila Hermawan, ST",
+    "status_pegawai": "PPPK",
+    "nip": "198005092025211027",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Instalasi PSRS"
+  },
+  {
+    "nama": "Ryan",
+    "status_pegawai": "PPPK",
+    "nip": "198805132025211055",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Instalasi Rekam Medik"
+  },
+  {
+    "nama": "Saddam Husein Sir, S.Kep., Ners., M. Kep",
+    "status_pegawai": "PPPK",
+    "nip": "199105112024211010",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Teratai"
+  },
+  {
+    "nama": "Siti Jamilah, A.Md",
+    "status_pegawai": "PPPK",
+    "nip": "198211042025212026",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Instalasi Verifikasi dan Penjaminan Pasien"
+  },
+  {
+    "nama": "Shaky Muhamad Apriyana",
+    "status_pegawai": "PPPK",
+    "nip": "199204132025211056",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Instalasi Rekam Medik"
+  },
+  {
+    "nama": "Siti Sri Ludia, S.Kep., Ners",
+    "status_pegawai": "PPPK",
+    "nip": "199504242023212007",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Anggrek Melati"
+  },
+  {
+    "nama": "Sofyan Juliansyah",
+    "status_pegawai": "PPPK",
+    "nip": "199307042025211045",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Tim Kerja TURT"
+  },
+  {
+    "nama": "Sukirno, S.Kep., Ners., M.Kep",
+    "status_pegawai": "PPPK",
+    "nip": "199012012024211015",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Teratai"
+  },
+  {
+    "nama": "Sumaji",
+    "status_pegawai": "PPPK",
+    "nip": "198107102025211034",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Tim Kerja TURT"
+  },
+  {
+    "nama": "Tantan Lustiwan, S.Tr.S.I",
+    "status_pegawai": "PPPK",
+    "nip": "198111042025211030",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Instalasi Rekam Medik"
+  },
+  {
+    "nama": "Tatang Haerudin, A.Md",
+    "status_pegawai": "PPPK",
+    "nip": "198106272025211038",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Instalasi Rekam Medik"
+  },
+  {
+    "nama": "Taufik Hartono",
+    "status_pegawai": "PPPK",
+    "nip": "198504032025211051",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Instalasi Rawat Intensif"
+  },
+  {
+    "nama": "Tedi Sutedi, S.AP",
+    "status_pegawai": "PPPK",
+    "nip": "198604242025211059",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Instalasi Promosi Kesehatan dan Pemasaran"
+  },
+  {
+    "nama": "Soyina, AMK",
+    "status_pegawai": "PPPK",
+    "nip": "199211142023212014",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Kacapiring"
+  },
+  {
+    "nama": "Trias Adhi Karno, SE",
+    "status_pegawai": "PPPK",
+    "nip": "198411182025211041",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Tim Kerja Pelaksanaan Keuangan"
+  },
+  {
+    "nama": "Turwanto, S.Tr.Ft",
+    "status_pegawai": "PPPK",
+    "nip": "198405052023211001",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rehabilitasi Medik"
+  },
+  {
+    "nama": "Unardi",
+    "status_pegawai": "PPPK",
+    "nip": "197705292025211013",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Lily"
+  },
+  {
+    "nama": "Waluyo Adi Saputro, A.Md.Kep",
+    "status_pegawai": "PPPK",
+    "nip": "198507202023211003",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Bedah Sentral"
+  },
+  {
+    "nama": "Yulianus Jambormias",
+    "status_pegawai": "PPPK",
+    "nip": "198206052025211054",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Instalasi Rekam Medik"
+  },
+  {
+    "nama": "Yusep Sudrajat",
+    "status_pegawai": "PPPK",
+    "nip": "198704252025211039",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Teratai"
+  },
+  {
+    "nama": "Yustian Gunawan, S.Tr.S.I.",
+    "status_pegawai": "PPPK",
+    "nip": "198310102025211078",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat SPP",
+    "unit_kerja": "Tim Kerja Penelitian"
+  },
+  {
+    "nama": "Yuyu Wahyu, S.S.T.Ars",
+    "status_pegawai": "PPPK",
+    "nip": "197810212025211018",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Instalasi PSRS"
+  },
+  {
+    "nama": "Sri Eka Dewi",
+    "status_pegawai": "PPPK",
+    "nip": "198802122025212053",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Tim Kerja Hukum dan Humas"
+  },
+  {
+    "nama": "Sumiyati Tarniyah, S.Kep., Ners",
+    "status_pegawai": "PPPK",
+    "nip": "199611252024212040",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Kacapiring"
+  },
+  {
+    "nama": "Tia Sulistiana, AMK",
+    "status_pegawai": "PPPK",
+    "nip": "198303252023212007",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Gawat Darurat"
+  },
+  {
+    "nama": "Yuniza Nurunniza, S.M",
+    "status_pegawai": "PPPK",
+    "nip": "199606212023212027",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat PKLO",
+    "unit_kerja": "Tim Kerja PPAE"
+  },
+  {
+    "nama": "dr. Indah Kurniawigati, MARS",
+    "status_pegawai": "BLU",
+    "nip": "919710618202605201",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Administrasi",
+    "golongan": "Administrasi",
+    "direktorat": "Direktorat SPP",
+    "unit_kerja": "Tim Kerja OSDM"
+  },
+  {
+    "nama": "dr. Nadiyah Bayan Hafizah",
+    "status_pegawai": "Mitra",
+    "nip": "9199708102311203",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Dokter",
+    "golongan": "Dokter Umum",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Departemen Medik"
+  },
+  {
+    "nama": "dr. Muhammad Habibi Nst, Sp. An - TI",
+    "status_pegawai": "Mitra",
+    "nip": "91992111991032001",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Dokter",
+    "golongan": "Dokter Spesialis",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Departemen Penunjang"
+  },
+  {
+    "nama": "dr. Fordiastiko, Sp. P (K)",
+    "status_pegawai": "Mitra",
+    "nip": "9196003312504104",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Dokter",
+    "golongan": "Dokter Spesialis",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Departemen Respiratori"
+  },
+  {
+    "nama": "dr. Ahmad Fauzi, Sp.N",
+    "status_pegawai": "Mitra",
+    "nip": "9199009212502105",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Dokter",
+    "golongan": "Dokter Spesialis",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Departemen Medik"
+  },
+  {
+    "nama": "dr. Purnamandala, Sp.PD",
+    "status_pegawai": "Mitra",
+    "nip": "9199009152601122",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Dokter",
+    "golongan": "Dokter Spesialis",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Departemen Medik"
+  },
+  {
+    "nama": "dr. Novrianda Eka Putra, Sp.B",
+    "status_pegawai": "Mitra",
+    "nip": "9198711292506107",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Dokter",
+    "golongan": "Dokter Spesialis",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Departemen Bedah"
+  },
+  {
+    "nama": "Ragil Meissy Kirana, S.Tr.Kes",
+    "status_pegawai": "Mitra",
+    "nip": "9200305072508209",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Bedah Sentral"
+  },
+  {
+    "nama": "dr. Adi zufron Pringadi, Sp.B",
+    "status_pegawai": "Mitra",
+    "nip": "9199012282509110",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Dokter",
+    "golongan": "Dokter Spesialis",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Departemen Bedah"
+  },
+  {
+    "nama": "Ligar Fajriati Sunarya, S.Tr.Kes",
+    "status_pegawai": "Mitra",
+    "nip": "9199906112512211",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Nakes Lain",
+    "golongan": "Nakes Lain",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rehabilitasi Medik"
+  },
+  {
+    "nama": "dr. Helmi Fakhruddin, Sp.PD",
+    "status_pegawai": "Mitra",
+    "nip": "9199409142512112",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Dokter",
+    "golongan": "Dokter Spesialis",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Departemen Medik"
+  },
+  {
+    "nama": "Azis Gandri Mabarti, A.Md.Kep",
+    "status_pegawai": "Mitra",
+    "nip": "9199909182601114",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Mawar"
+  },
+  {
+    "nama": "Fitria Nurrohmawati, S. Tr. Kep., Ns",
+    "status_pegawai": "Mitra",
+    "nip": "9200112022601213",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Kacapiring"
+  },
+  {
+    "nama": "Nenden Widya, A.Md.Kep",
+    "status_pegawai": "Mitra",
+    "nip": "9199606032601216",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Intensif"
+  },
+  {
+    "nama": "Hanifah Nur Fadilla, S.Kep., Ners",
+    "status_pegawai": "Mitra",
+    "nip": "9200009062601215",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Mawar"
+  },
+  {
+    "nama": "dr. Yandriyane Stephanie Robiady, Sp.OT, AIFO-K",
+    "status_pegawai": "Mitra",
+    "nip": "9199001222601216",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Dokter",
+    "golongan": "Dokter Spesialis",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Departemen Bedah"
+  },
+  {
+    "nama": "Febrilla Elena Crismonika, S.Tr.Kep., Ners",
+    "status_pegawai": "Mitra",
+    "nip": "9199902172602218",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Kacapiring"
+  },
+  {
+    "nama": "Shakila Azkania Putri, A.Md. Kep",
+    "status_pegawai": "Mitra",
+    "nip": "9200310252602217",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Teratai"
+  },
+  {
+    "nama": "dr. Hawik Muzdalifah, SpKFR, MARS",
+    "status_pegawai": "Mitra",
+    "nip": "9197212132602219",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Dokter",
+    "golongan": "Dokter Spesialis",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Departemen Penunjang"
+  },
+  {
+    "nama": "dr. Andri Saputra, Sp.A, Subsp. Neo (K)",
+    "status_pegawai": "Mitra",
+    "nip": "9198601252603120",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Dokter",
+    "golongan": "Dokter Spesialis",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Departemen Medik"
+  },
+  {
+    "nama": "dr. Meviraf Benny Tanio, Sp. BS (K)  Intervensi Stroke",
+    "status_pegawai": "Mitra",
+    "nip": "9198810232603121",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Dokter",
+    "golongan": "Dokter Spesialis",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Departemen Bedah"
+  },
+  {
+    "nama": "dr. Jonathan Grantomo. Sp. BTKV",
+    "status_pegawai": "Mitra",
+    "nip": "9199407212604123",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Dokter",
+    "golongan": "Dokter Spesialis",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Departemen Bedah"
+  },
+  {
+    "nama": "Priskila Febi Pangestika, Amd.Keb",
+    "status_pegawai": "Mitra",
+    "nip": "9199602082604224",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Bidan",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "FKTP"
+  },
+  {
+    "nama": "Ripka Hayati",
+    "status_pegawai": "Mitra",
+    "nip": "9199309232604225",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Bidan",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "FKTP"
+  },
+  {
+    "nama": "drg. Palupi Gary Widhiarsi",
+    "status_pegawai": "Mitra",
+    "nip": "9199310102604226",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Dokter",
+    "golongan": "Dokter Gigi",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "FKTP"
+  },
+  {
+    "nama": "dr. Dewantoro Priyo Sejati, Sp.JP",
+    "status_pegawai": "Mitra",
+    "nip": "9199307252606127",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Dokter",
+    "golongan": "Dokter Spesialis",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Departemen Medik"
+  },
+  {
+    "nama": "dr. Ryzufar Altarif Farsal",
+    "status_pegawai": "Mitra",
+    "nip": "9200108132607128",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Dokter",
+    "golongan": "Dokter Umum",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Departemen Medik"
+  },
+  {
+    "nama": "dr. Hasyasya Furnita Sp. Rad",
+    "status_pegawai": "Mitra",
+    "nip": "9199102032607229",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Dokter",
+    "golongan": "Dokter Spesialis",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Departemen Penunjang"
+  },
+  {
+    "nama": "dr. Andi Muhammad Zharfan Maddeppungeng",
+    "status_pegawai": "Mitra",
+    "nip": "9199803122608130",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Dokter",
+    "golongan": "Dokter Umum",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Departemen Medik"
+  },
+  {
+    "nama": "Salsabila Nurlian, A.Md. Kep",
+    "status_pegawai": "Magang",
+    "nip": "9200211142606234",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Mawar"
+  },
+  {
+    "nama": "Alif Muhammad Suhada, A.Md. Kep",
+    "status_pegawai": "Magang",
+    "nip": "9200307222606136",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Lily"
+  },
+  {
+    "nama": "Amanda Zellya Tri Agustina, A.Md. Kep",
+    "status_pegawai": "Magang",
+    "nip": "9200308162606237",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Anggrek Melati"
+  },
+  {
+    "nama": "Nino Mahadika Saputra, A.Md. Kep",
+    "status_pegawai": "Magang",
+    "nip": "9200311212606133",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Kacapiring"
+  },
+  {
+    "nama": "Asifa Turahma, A.Md. Kep",
+    "status_pegawai": "Magang",
+    "nip": "9200312222606227",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Kacapiring"
+  },
+  {
+    "nama": "Sari'ah, A.Md. Kep",
+    "status_pegawai": "Magang",
+    "nip": "9200408192606239",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Lily"
+  },
+  {
+    "nama": "Davi Ghifari, A.Md. Kep",
+    "status_pegawai": "Magang",
+    "nip": "9200408262606129",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Teratai"
+  },
+  {
+    "nama": "R Herliana Rahmawati, A.Md. Kep",
+    "status_pegawai": "Magang",
+    "nip": "9200409062606228",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Kacapiring"
+  },
+  {
+    "nama": "Neng Silvi Damayanti, A.Md. Kep",
+    "status_pegawai": "Magang",
+    "nip": "9200409182606231",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Tanjung"
+  },
+  {
+    "nama": "Muhammad Syafrizab, A.Md. Kep",
+    "status_pegawai": "Magang",
+    "nip": "9200410032606138",
+    "kelamin": "Laki-Laki",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Lily"
+  },
+  {
+    "nama": "Dikra Rahayu, A.Md. Kep",
+    "status_pegawai": "Magang",
+    "nip": "9200410032606235",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Lily"
+  },
+  {
+    "nama": "Siti Latifah Kosasih, A.Md. Kep",
+    "status_pegawai": "Magang",
+    "nip": "9200410162606230",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Teratai"
+  },
+  {
+    "nama": "Feni Afrianti, A.Md. Kep",
+    "status_pegawai": "Magang",
+    "nip": "9200412082606232",
+    "kelamin": "Perempuan",
+    "kelompok_besar": "Perawat dan Bidan",
+    "golongan": "Perawat",
+    "direktorat": "Direktorat MK",
+    "unit_kerja": "Instalasi Rawat Inap - Mawar"
+  }
+]
